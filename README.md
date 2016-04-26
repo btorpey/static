@@ -5,8 +5,8 @@ A blog post describing the use of these scripts with cppcheck and clang can be f
 
 Script  | Description
 ------------- | -------------
+[build_cppcheck.sh](build_cppcheck.sh.md) | Script to build cppcheck for installation in a non-standard location (i.e., not /usr, /usr/local).
 [cc_driver.pl](cc_driver.pl.md)  | Iterates over a compilation database (compile_commands.json) file, and executes a specified command for each build target, passing the compiler flags from the normal build.
-build_cppcheck.sh | Script to build cppcheck for installation in a non-standard location (i.e., not /usr, /usr/local).
 cppcheck.sh | Invokes cppcheck defining a number of common parameters, also generates and includes compiler pre-defined macros.
 cppcheck2csv.pl  | Takes (filtered or un-filtered) output from cppcheck, and formats it in csv format.
 clang2csv.pl  | Takes (filtered or un-filtered) output from clang tools (clang-check and clang-tidy), and formats it in csv format.

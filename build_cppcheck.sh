@@ -24,4 +24,6 @@ rm -rf ${INSTALL_PREFIX}
 
 cd ${PACKAGE}-${VERSION}
 make clean
-make ${VERBOSE} PREFIX=${INSTALL_PREFIX} CFGDIR=${INSTALL_PREFIX}/cfg HAVE_RULES=yes LDFLAGS="-Wl,--rpath=/build/share/gcc/4.8.2/lib64" install
+make ${VERBOSE} PREFIX=${INSTALL_PREFIX} CFGDIR=${INSTALL_PREFIX}/cfg HAVE_RULES=yes \
+LDFLAGS="-Wl,--rpath=/build/share/gcc/4.8.2/lib64" \
+install
