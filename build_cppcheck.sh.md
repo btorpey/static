@@ -1,4 +1,5 @@
 # build_cppcheck.sh
+{:.no_toc}
 
 This script builds cppcheck for installation in a non-standard location (i.e., not /usr or /usr/local).
 
