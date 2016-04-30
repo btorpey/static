@@ -1,4 +1,5 @@
 # cc_driver.pl
+{:.no_toc}
 
 This script parses a [compilation database](http://clang.llvm.org/docs/JSONCompilationDatabase.html), and executes a specified command for each matching file in the database.  It generates a command that includes the `-I` and `-D` parameters used in the original compilation.
 
@@ -9,19 +10,22 @@ cc\_driver.pl [-v] [-s] [-p build\_path]
 
 ## Parameters
 
--v      Be verbose.  Displays generated commands to stdout.
+-v  |   Be verbose.  Displays generated commands to stdout.
+-s  |   Generate system include paths. See [System Include Files](#system-includes).
+-p build\_path  |   Specifies the path to a compilation database in JSON format.  It can be either an absolute path to a compilation database, or a directory (which will be searched for a compile\_commands.json file).  If omitted, the current directory is used.
+-i include_pattern | File paths matching include_pattern are included in generated commands.  May be specified multiple times.  If omitted, all files in the compilation database are included.
+-x exclude_pattern | File paths matching exclude_pattern are not included in generated commands.  May be specified multiple times.  All exclude_patterns are matched after any include patterns.  
+command | Specifies the command to run against each file.  (See [below](#generated-command-format) for details on how the generated command line is constructed).
+parameters | Any parameters for the specified command.
 
--s      Generate system include paths. See [System Include Files](#system-includes).
-
--p build\_path
-        Specifies the path to a compilation database in JSON format.  It can be either an absolute path to a compilation database, a directory (which will be searched for a compile\_commands.json file).  If omitted, the current directory is used.
 
 ## Environment Variables
-${CXX}      If the `-s` option is specified, the value of `${CXX}` is used as the name of the compiler.  (If `${CXX}` is not defined, the default is `g++`).
+If the `-s` option is specified, the value of `${CXX}` is used as the name of the compiler.  (If `${CXX}` is not defined, the default is `g++`).
 
 ## Notes
 The generated command first changes to the original build directory before executing the specified command, so specifying [command] using a relative path is generally a mistake.  Instead use an absolute path, or make sure that [command] can be found using the `PATH` environment variable.
 
+### Generated command format
 The script generates a command line of the form
 
 `
