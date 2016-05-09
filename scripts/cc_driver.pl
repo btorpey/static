@@ -52,10 +52,16 @@ sub trim
 
 ###############################################################
 # get cmd line args
-use Getopt::Long qw(:config pass_through);
+use Getopt::Long qw(:config pass_through bundling);
 # location and/or name of compile db
 my $build_path = "compile_commands.json";
 GetOptions('p=s' => \$build_path);
+# debug mode
+my $debug = 0;
+GetOptions('d' => \$debug);
+# whether to generate command a la compiler
+my $no_params = 0;
+GetOptions('n' => \$no_params);
 # whether to include system headers
 my $include_sys_headers = 0;
 GetOptions('s' => \$include_sys_headers);
@@ -75,7 +81,10 @@ my $exclude;
 if ((scalar @exclude) > 0) {
    $exclude = join("|", @exclude);
 }
+# debug implies verbose
+($debug == 1) && ($verbose = 1);
 
+($verbose == 1) && print "parameters=@ARGV\n";
 
 
 ###############################################################
@@ -115,29 +124,31 @@ while (<INFILE>) {
       $file      = "";
    }
    elsif ($tokens[0] eq '"command":') {
-      for my $i (1 .. $#tokens) {
-         if ($tokens[$i] eq "-D") {
-            push @params, "-D" . $tokens[++$i];
-         }
-         elsif (substr($tokens[$i], 0, 2) eq "-D") {
-            push @params, $tokens[$i];
-         }
-         elsif ($tokens[$i] eq "-I") {
-            push @params, "-I" . $tokens[++$i];
-         }
-         elsif (substr($tokens[$i], 0, 2) eq "-I") {
-            push @params, $tokens[$i];
-         }
-         elsif (substr($tokens[$i], 0, 8) eq "-isystem") {
-            if ($include_sys_headers == 1) {
-               push @system_includes, "-I" . $tokens[++$i];
+      if ($no_params == 0) {
+         for my $i (1 .. $#tokens) {
+            if ($tokens[$i] eq "-D") {
+               push @params, "-D" . $tokens[++$i];
             }
-         }
-         elsif ($tokens[$i] eq "-fstack-usage") {
-            # skip it -- not material to analysis, and clang errors out
-         }
-         elsif ($tokens[$i] eq "-frecord-gcc-switches") {
-            # skip it -- not material to analysis, and clang errors out
+            elsif (substr($tokens[$i], 0, 2) eq "-D") {
+               push @params, $tokens[$i];
+            }
+            elsif ($tokens[$i] eq "-I") {
+               push @params, "-I" . $tokens[++$i];
+            }
+            elsif (substr($tokens[$i], 0, 2) eq "-I") {
+               push @params, $tokens[$i];
+            }
+            elsif (substr($tokens[$i], 0, 8) eq "-isystem") {
+               if ($include_sys_headers == 1) {
+                  push @system_includes, "-I" . $tokens[++$i];
+               }
+            }
+            elsif ($tokens[$i] eq "-fstack-usage") {
+               # skip it -- not material to analysis, and clang errors out
+            }
+            elsif ($tokens[$i] eq "-frecord-gcc-switches") {
+               # skip it -- not material to analysis, and clang errors out
+            }
          }
       }
    }
@@ -166,7 +177,7 @@ while (<INFILE>) {
       ((defined $exclude) && ($file =~ /$exclude/)) && ($run = 0);
       if ($run == 1) {
          ($verbose == 1) && print "$cmd\n";
-         system($cmd);
+         ($debug != 1) && system($cmd);
       } 
       # exit on signal
       ($? & 127) && exit;

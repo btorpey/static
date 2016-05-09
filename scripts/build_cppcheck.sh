@@ -9,12 +9,21 @@ set -exv
 PACKAGE=cppcheck
 VERSION=1.73
 
+#
+# NOTE: cppcheck requires pcre-devel package (yum install pcre-devel)
+#
+
 # location where package should be installed
 INSTALL_PREFIX=/build/share/${PACKAGE}/${VERSION}
 # uncomment following to get verbose output from make
 #VERBOSE=VERBOSE=1
 
-[[ -e ${PACKAGE}-${VERSION}.tar.gz ]] || wget -nv https://sourceforge.net/projects/${PACKAGE}/files/${PACKAGE}/${VERSION}/${PACKAGE}-${VERSION}.tar.gz
+# find compiler libraries to use in RPATH setting
+COMPILER=${CXX}
+[[ -z ${COMPILER} ]] && COMPILER=g++
+RPATH=$(dirname $(dirname $(which ${COMPILER})))/lib64
+
+[[ -e ${PACKAGE}-${VERSION}.tar.gz ]] || wget --no-check-certificate -nv https://sourceforge.net/projects/${PACKAGE}/files/${PACKAGE}/${VERSION}/${PACKAGE}-${VERSION}.tar.gz
 
 rm -rf ${PACKAGE}-${VERSION}
 tar xvfz ${PACKAGE}-${VERSION}.tar.gz
@@ -24,6 +33,4 @@ rm -rf ${INSTALL_PREFIX}
 
 cd ${PACKAGE}-${VERSION}
 make clean
-make ${VERBOSE} PREFIX=${INSTALL_PREFIX} CFGDIR=${INSTALL_PREFIX}/cfg HAVE_RULES=yes \
-LDFLAGS="-Wl,--rpath=/build/share/gcc/4.8.2/lib64" \
-install
+make ${VERBOSE} PREFIX=${INSTALL_PREFIX} CFGDIR=${INSTALL_PREFIX}/cfg HAVE_RULES=yes LDFLAGS="-Wl,--rpath=${RPATH}" install

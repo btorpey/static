@@ -16,7 +16,7 @@ cc\_driver.pl [-v] [-s] [-p build\_path]
 -i include_pattern | File paths matching include_pattern are included in generated commands.  May be specified multiple times.  If omitted, all files in the compilation database are included.
 -x exclude_pattern | File paths matching exclude_pattern are not included in generated commands.  May be specified multiple times.  All exclude_patterns are matched after any include patterns.  
 command | Specifies the command to run against each file.  (See [below](#generated-command-format) for details on how the generated command line is constructed).
-parameters | Any parameters for the specified command.
+parameters | Any parameters for the specified command.  Note that you may need to quote the parameters if they include quotes themselves to avoid [quote removal](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_07).
 
 
 ## Environment Variables
