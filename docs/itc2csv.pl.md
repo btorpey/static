@@ -8,6 +8,8 @@ itc2csv.pl [-r relative_path] [file]
 
 ## Parameters
 
+Parameter | Description
+--- | ---
 -r relative_path | If specified, relative_path is stripped from the output.  This makes it easier to compare results between different directories.
 file | Specifies the input file.  If omitted, input is read from stdin.
 
