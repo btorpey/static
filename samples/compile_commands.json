@@ -1,0 +1,547 @@
+[
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT bit_shift.o -MD -MP -MF .deps/bit_shift.Tpo -c -o bit_shift.o bit_shift.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/bit_shift.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/main.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT buffer_overrun_dynamic.o -MD -MP -MF .deps/buffer_overrun_dynamic.Tpo -c -o buffer_overrun_dynamic.o buffer_overrun_dynamic.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/buffer_overrun_dynamic.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT memory_allocation_failure.o -MD -MP -MF .deps/memory_allocation_failure.Tpo -c -o memory_allocation_failure.o memory_allocation_failure.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/memory_allocation_failure.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT buffer_underrun_dynamic.o -MD -MP -MF .deps/buffer_underrun_dynamic.Tpo -c -o buffer_underrun_dynamic.o buffer_underrun_dynamic.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/buffer_underrun_dynamic.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT memory_leak.o -MD -MP -MF .deps/memory_leak.Tpo -c -o memory_leak.o memory_leak.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/memory_leak.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT cmp_funcadr.o -MD -MP -MF .deps/cmp_funcadr.Tpo -c -o cmp_funcadr.o cmp_funcadr.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/cmp_funcadr.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT not_return.o -MD -MP -MF .deps/not_return.Tpo -c -o not_return.o not_return.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/not_return.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT conflicting_cond.o -MD -MP -MF .deps/conflicting_cond.Tpo -c -o conflicting_cond.o conflicting_cond.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/conflicting_cond.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT null_pointer.o -MD -MP -MF .deps/null_pointer.Tpo -c -o null_pointer.o null_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/null_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT data_lost.o -MD -MP -MF .deps/data_lost.Tpo -c -o data_lost.o data_lost.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/data_lost.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT overrun_st.o -MD -MP -MF .deps/overrun_st.Tpo -c -o overrun_st.o overrun_st.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/overrun_st.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT data_overflow.o -MD -MP -MF .deps/data_overflow.Tpo -c -o data_overflow.o data_overflow.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/data_overflow.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT ow_memcpy.o -MD -MP -MF .deps/ow_memcpy.Tpo -c -o ow_memcpy.o ow_memcpy.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/ow_memcpy.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT data_underflow.o -MD -MP -MF .deps/data_underflow.Tpo -c -o data_underflow.o data_underflow.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/data_underflow.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT pow_related_errors.o -MD -MP -MF .deps/pow_related_errors.Tpo -c -o pow_related_errors.o pow_related_errors.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/pow_related_errors.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT dead_code.o -MD -MP -MF .deps/dead_code.Tpo -c -o dead_code.o dead_code.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/dead_code.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT ptr_subtraction.o -MD -MP -MF .deps/ptr_subtraction.Tpo -c -o ptr_subtraction.o ptr_subtraction.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/ptr_subtraction.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT dead_lock.o -MD -MP -MF .deps/dead_lock.Tpo -c -o dead_lock.o dead_lock.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/dead_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT race_condition.o -MD -MP -MF .deps/race_condition.Tpo -c -o race_condition.o race_condition.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/race_condition.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT deletion_of_data_structure_sentinel.o -MD -MP -MF .deps/deletion_of_data_structure_sentinel.Tpo -c -o deletion_of_data_structure_sentinel.o deletion_of_data_structure_sentinel.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/deletion_of_data_structure_sentinel.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT redundant_cond.o -MD -MP -MF .deps/redundant_cond.Tpo -c -o redundant_cond.o redundant_cond.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/redundant_cond.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT double_free.o -MD -MP -MF .deps/double_free.Tpo -c -o double_free.o double_free.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/double_free.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT return_local.o -MD -MP -MF .deps/return_local.Tpo -c -o return_local.o return_local.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/return_local.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT double_lock.o -MD -MP -MF .deps/double_lock.Tpo -c -o double_lock.o double_lock.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/double_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT sign_conv.o -MD -MP -MF .deps/sign_conv.Tpo -c -o sign_conv.o sign_conv.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/sign_conv.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT double_release.o -MD -MP -MF .deps/double_release.Tpo -c -o double_release.o double_release.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/double_release.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT sleep_lock.o -MD -MP -MF .deps/sleep_lock.Tpo -c -o sleep_lock.o sleep_lock.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/sleep_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT endless_loop.o -MD -MP -MF .deps/endless_loop.Tpo -c -o endless_loop.o endless_loop.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/endless_loop.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT st_cross_thread_access.o -MD -MP -MF .deps/st_cross_thread_access.Tpo -c -o st_cross_thread_access.o st_cross_thread_access.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/st_cross_thread_access.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT free_nondynamic_allocated_memory.o -MD -MP -MF .deps/free_nondynamic_allocated_memory.Tpo -c -o free_nondynamic_allocated_memory.o free_nondynamic_allocated_memory.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/free_nondynamic_allocated_memory.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT st_overflow.o -MD -MP -MF .deps/st_overflow.Tpo -c -o st_overflow.o st_overflow.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/st_overflow.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT free_null_pointer.o -MD -MP -MF .deps/free_null_pointer.Tpo -c -o free_null_pointer.o free_null_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/free_null_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT stubs.o -MD -MP -MF .deps/stubs.Tpo -c -o stubs.o stubs.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/stubs.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT func_pointer.o -MD -MP -MF .deps/func_pointer.Tpo -c -o func_pointer.o func_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/func_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT st_underrun.o -MD -MP -MF .deps/st_underrun.Tpo -c -o st_underrun.o st_underrun.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/st_underrun.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT function_return_value_unchecked.o -MD -MP -MF .deps/function_return_value_unchecked.Tpo -c -o function_return_value_unchecked.o function_return_value_unchecked.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/function_return_value_unchecked.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT underrun_st.o -MD -MP -MF .deps/underrun_st.Tpo -c -o underrun_st.o underrun_st.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/underrun_st.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT improper_termination_of_block.o -MD -MP -MF .deps/improper_termination_of_block.Tpo -c -o improper_termination_of_block.o improper_termination_of_block.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/improper_termination_of_block.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT uninit_memory_access.o -MD -MP -MF .deps/uninit_memory_access.Tpo -c -o uninit_memory_access.o uninit_memory_access.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/uninit_memory_access.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT insign_code.o -MD -MP -MF .deps/insign_code.Tpo -c -o insign_code.o insign_code.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/insign_code.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT uninit_pointer.o -MD -MP -MF .deps/uninit_pointer.Tpo -c -o uninit_pointer.o uninit_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/uninit_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT invalid_extern_1.o -MD -MP -MF .deps/invalid_extern_1.Tpo -c -o invalid_extern_1.o invalid_extern_1.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/invalid_extern_1.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT uninit_var.o -MD -MP -MF .deps/uninit_var.Tpo -c -o uninit_var.o uninit_var.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/uninit_var.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT invalid_extern.o -MD -MP -MF .deps/invalid_extern.Tpo -c -o invalid_extern.o invalid_extern.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/invalid_extern.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT unlock_without_lock.o -MD -MP -MF .deps/unlock_without_lock.Tpo -c -o unlock_without_lock.o unlock_without_lock.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/unlock_without_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT invalid_memory_access.o -MD -MP -MF .deps/invalid_memory_access.Tpo -c -o invalid_memory_access.o invalid_memory_access.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/invalid_memory_access.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT unused_var.o -MD -MP -MF .deps/unused_var.Tpo -c -o unused_var.o unused_var.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/unused_var.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT littlemem_st.o -MD -MP -MF .deps/littlemem_st.Tpo -c -o littlemem_st.o littlemem_st.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/littlemem_st.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT wrong_arguments_func_pointer.o -MD -MP -MF .deps/wrong_arguments_func_pointer.Tpo -c -o wrong_arguments_func_pointer.o wrong_arguments_func_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/wrong_arguments_func_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT livelock.o -MD -MP -MF .deps/livelock.Tpo -c -o livelock.o livelock.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/livelock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT zero_division.o -MD -MP -MF .deps/zero_division.Tpo -c -o zero_division.o zero_division.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/zero_division.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT lock_never_unlock.o -MD -MP -MF .deps/lock_never_unlock.Tpo -c -o lock_never_unlock.o lock_never_unlock.c",
+        "directory": "${ITCBENCH_ROOT}/01.w_Defects",
+        "file": "${ITCBENCH_ROOT}/01.w_Defects/lock_never_unlock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT bit_shift.o -MD -MP -MF .deps/bit_shift.Tpo -c -o bit_shift.o bit_shift.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/bit_shift.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT lock_never_unlock.o -MD -MP -MF .deps/lock_never_unlock.Tpo -c -o lock_never_unlock.o lock_never_unlock.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/lock_never_unlock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT buffer_overrun_dynamic.o -MD -MP -MF .deps/buffer_overrun_dynamic.Tpo -c -o buffer_overrun_dynamic.o buffer_overrun_dynamic.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/buffer_overrun_dynamic.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/main.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT buffer_underrun_dynamic.o -MD -MP -MF .deps/buffer_underrun_dynamic.Tpo -c -o buffer_underrun_dynamic.o buffer_underrun_dynamic.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/buffer_underrun_dynamic.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT memory_allocation_failure.o -MD -MP -MF .deps/memory_allocation_failure.Tpo -c -o memory_allocation_failure.o memory_allocation_failure.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/memory_allocation_failure.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT cmp_funcadr.o -MD -MP -MF .deps/cmp_funcadr.Tpo -c -o cmp_funcadr.o cmp_funcadr.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/cmp_funcadr.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT memory_leak.o -MD -MP -MF .deps/memory_leak.Tpo -c -o memory_leak.o memory_leak.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/memory_leak.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT conflicting_cond.o -MD -MP -MF .deps/conflicting_cond.Tpo -c -o conflicting_cond.o conflicting_cond.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/conflicting_cond.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT not_return.o -MD -MP -MF .deps/not_return.Tpo -c -o not_return.o not_return.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/not_return.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT data_lost.o -MD -MP -MF .deps/data_lost.Tpo -c -o data_lost.o data_lost.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/data_lost.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT null_pointer.o -MD -MP -MF .deps/null_pointer.Tpo -c -o null_pointer.o null_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/null_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT data_overflow.o -MD -MP -MF .deps/data_overflow.Tpo -c -o data_overflow.o data_overflow.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/data_overflow.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT overrun_st.o -MD -MP -MF .deps/overrun_st.Tpo -c -o overrun_st.o overrun_st.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/overrun_st.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT data_underflow.o -MD -MP -MF .deps/data_underflow.Tpo -c -o data_underflow.o data_underflow.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/data_underflow.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT ow_memcpy.o -MD -MP -MF .deps/ow_memcpy.Tpo -c -o ow_memcpy.o ow_memcpy.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/ow_memcpy.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT dead_code.o -MD -MP -MF .deps/dead_code.Tpo -c -o dead_code.o dead_code.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/dead_code.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT pow_related_errors.o -MD -MP -MF .deps/pow_related_errors.Tpo -c -o pow_related_errors.o pow_related_errors.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/pow_related_errors.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT dead_lock.o -MD -MP -MF .deps/dead_lock.Tpo -c -o dead_lock.o dead_lock.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/dead_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT ptr_subtraction.o -MD -MP -MF .deps/ptr_subtraction.Tpo -c -o ptr_subtraction.o ptr_subtraction.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/ptr_subtraction.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT deletion_of_data_structure_sentinel.o -MD -MP -MF .deps/deletion_of_data_structure_sentinel.Tpo -c -o deletion_of_data_structure_sentinel.o deletion_of_data_structure_sentinel.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/deletion_of_data_structure_sentinel.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT race_condition.o -MD -MP -MF .deps/race_condition.Tpo -c -o race_condition.o race_condition.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/race_condition.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT double_free.o -MD -MP -MF .deps/double_free.Tpo -c -o double_free.o double_free.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/double_free.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT redundant_cond.o -MD -MP -MF .deps/redundant_cond.Tpo -c -o redundant_cond.o redundant_cond.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/redundant_cond.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT double_lock.o -MD -MP -MF .deps/double_lock.Tpo -c -o double_lock.o double_lock.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/double_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT return_local.o -MD -MP -MF .deps/return_local.Tpo -c -o return_local.o return_local.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/return_local.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT double_release.o -MD -MP -MF .deps/double_release.Tpo -c -o double_release.o double_release.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/double_release.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT sign_conv.o -MD -MP -MF .deps/sign_conv.Tpo -c -o sign_conv.o sign_conv.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/sign_conv.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT endless_loop.o -MD -MP -MF .deps/endless_loop.Tpo -c -o endless_loop.o endless_loop.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/endless_loop.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT sleep_lock.o -MD -MP -MF .deps/sleep_lock.Tpo -c -o sleep_lock.o sleep_lock.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/sleep_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT free_nondynamically_allocated_memory.o -MD -MP -MF .deps/free_nondynamically_allocated_memory.Tpo -c -o free_nondynamically_allocated_memory.o free_nondynamically_allocated_memory.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/free_nondynamically_allocated_memory.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT st_cross_thread_access.o -MD -MP -MF .deps/st_cross_thread_access.Tpo -c -o st_cross_thread_access.o st_cross_thread_access.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/st_cross_thread_access.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT free_null_pointer.o -MD -MP -MF .deps/free_null_pointer.Tpo -c -o free_null_pointer.o free_null_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/free_null_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT st_overflow.o -MD -MP -MF .deps/st_overflow.Tpo -c -o st_overflow.o st_overflow.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/st_overflow.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT func_pointer.o -MD -MP -MF .deps/func_pointer.Tpo -c -o func_pointer.o func_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/func_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT st_underrun.o -MD -MP -MF .deps/st_underrun.Tpo -c -o st_underrun.o st_underrun.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/st_underrun.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT function_return_value_unchecked.o -MD -MP -MF .deps/function_return_value_unchecked.Tpo -c -o function_return_value_unchecked.o function_return_value_unchecked.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/function_return_value_unchecked.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT underrun_st.o -MD -MP -MF .deps/underrun_st.Tpo -c -o underrun_st.o underrun_st.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/underrun_st.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT improper_termination_of_block.o -MD -MP -MF .deps/improper_termination_of_block.Tpo -c -o improper_termination_of_block.o improper_termination_of_block.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/improper_termination_of_block.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT uninit_memory_access.o -MD -MP -MF .deps/uninit_memory_access.Tpo -c -o uninit_memory_access.o uninit_memory_access.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/uninit_memory_access.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT insign_code.o -MD -MP -MF .deps/insign_code.Tpo -c -o insign_code.o insign_code.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/insign_code.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT uninit_pointer.o -MD -MP -MF .deps/uninit_pointer.Tpo -c -o uninit_pointer.o uninit_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/uninit_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT invalid_extern_1.o -MD -MP -MF .deps/invalid_extern_1.Tpo -c -o invalid_extern_1.o invalid_extern_1.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/invalid_extern_1.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT uninit_var.o -MD -MP -MF .deps/uninit_var.Tpo -c -o uninit_var.o uninit_var.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/uninit_var.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT invalid_extern.o -MD -MP -MF .deps/invalid_extern.Tpo -c -o invalid_extern.o invalid_extern.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/invalid_extern.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT unlock_without_lock.o -MD -MP -MF .deps/unlock_without_lock.Tpo -c -o unlock_without_lock.o unlock_without_lock.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/unlock_without_lock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT invalid_memory_access.o -MD -MP -MF .deps/invalid_memory_access.Tpo -c -o invalid_memory_access.o invalid_memory_access.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/invalid_memory_access.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT unused_var.o -MD -MP -MF .deps/unused_var.Tpo -c -o unused_var.o unused_var.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/unused_var.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT littlemem_st.o -MD -MP -MF .deps/littlemem_st.Tpo -c -o littlemem_st.o littlemem_st.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/littlemem_st.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT wrong_arguments_func_pointer.o -MD -MP -MF .deps/wrong_arguments_func_pointer.Tpo -c -o wrong_arguments_func_pointer.o wrong_arguments_func_pointer.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/wrong_arguments_func_pointer.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT livelock.o -MD -MP -MF .deps/livelock.Tpo -c -o livelock.o livelock.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/livelock.c"
+    },
+    {
+        "command": "gcc -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT zero_division.o -MD -MP -MF .deps/zero_division.Tpo -c -o zero_division.o zero_division.c",
+        "directory": "${ITCBENCH_ROOT}/02.wo_Defects",
+        "file": "${ITCBENCH_ROOT}/02.wo_Defects/zero_division.c"
+    },
+    {
+        "command": "g++ -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT improper_error_handling.o -MD -MP -MF .deps/improper_error_handling.Tpo -c -o improper_error_handling.o improper_error_handling.cpp",
+        "directory": "${ITCBENCH_ROOT}/03.w_Defects_Cpp",
+        "file": "${ITCBENCH_ROOT}/03.w_Defects_Cpp/improper_error_handling.cpp"
+    },
+    {
+        "command": "g++ -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.cpp",
+        "directory": "${ITCBENCH_ROOT}/03.w_Defects_Cpp",
+        "file": "${ITCBENCH_ROOT}/03.w_Defects_Cpp/main.cpp"
+    },
+    {
+        "command": "g++ -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT improper_error_handling.o -MD -MP -MF .deps/improper_error_handling.Tpo -c -o improper_error_handling.o improper_error_handling.cpp",
+        "directory": "${ITCBENCH_ROOT}/04.wo_Defects_Cpp",
+        "file": "${ITCBENCH_ROOT}/04.wo_Defects_Cpp/improper_error_handling.cpp"
+    },
+    {
+        "command": "g++ -DPACKAGE_NAME=\"itc-benchmarks\" -DPACKAGE_TARNAME=\"itc-benchmarks\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"itc-benchmarks 1.0\" -DPACKAGE_BUGREPORT=\"https://github.com/regehr/itc-benchmarks/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"itc-benchmarks\" -DVERSION=\"1.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_SOCKET=1 -I. -I../include -pthread -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.cpp",
+        "directory": "${ITCBENCH_ROOT}/04.wo_Defects_Cpp",
+        "file": "${ITCBENCH_ROOT}/04.wo_Defects_Cpp/main.cpp"
+    }
+]

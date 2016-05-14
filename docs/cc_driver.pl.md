@@ -5,18 +5,19 @@ This script parses a [compilation database](http://clang.llvm.org/docs/JSONCompi
 
 ## Usage
 
-cc\_driver.pl [-v] [-s] [-p build\_path]
+cc\_driver.pl [-v] [-s] [-n] [-p build\_path]
 [-i include\_pattern] [-x exclude\_pattern] command [parameters]
 
 ## Parameters
 
 -v  |   Be verbose.  Displays generated commands to stdout.
 -s  |   Generate system include paths. See [System Include Files](#system-includes).
+-n  |   Don't include `-I` or `-D` parameters in the generated command. This can be useful when using the script to execute "normal" commands (e.g., grep) that don't take such parameters.
 -p build\_path  |   Specifies the path to a compilation database in JSON format.  It can be either an absolute path to a compilation database, or a directory (which will be searched for a compile\_commands.json file).  If omitted, the current directory is used.
 -i include_pattern | File paths matching include_pattern are included in generated commands.  May be specified multiple times.  If omitted, all files in the compilation database are included.
 -x exclude_pattern | File paths matching exclude_pattern are not included in generated commands.  May be specified multiple times.  All exclude_patterns are matched after any include patterns.  
 command | Specifies the command to run against each file.  (See [below](#generated-command-format) for details on how the generated command line is constructed).
-parameters | Any parameters for the specified command.
+parameters | Any parameters for the specified command.  Note that you may need to quote the parameters if they include quotes themselves to avoid [quote removal](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_07).
 
 
 ## Environment Variables
@@ -50,3 +51,5 @@ The system include paths are:
 - The default compiler search paths are appended to the generated command line.  The compiler search paths are determined by parsing the output of
 `${CXX} -E -x c++ - -v 2>&1 1>/dev/null </dev/null`
 
+
+See [this post](/blog/2016/04/07/mo-static) for more information.

@@ -21,6 +21,13 @@ sub trim
    return wantarray ? @out : $out[0];
 }
 
+###############################################################
+# get cmd line args
+use Getopt::Long qw(:config pass_through);
+# relative path to strip from full path
+my $relative_path;
+GetOptions('r=s' => \$relative_path);
+
  local *INFILE;
  if (defined($ARGV[0])) {
      open(INFILE, "<:crlf", "$ARGV[0]") or die "Cant open $ARGV[0]\n";
@@ -35,6 +42,7 @@ while (<INFILE>) {
    my @tokens = split("]:", $_);
    my $filename = trim(shift @tokens);
    $filename =~ s/^\.\.\///;                  # remove leading "../" from path 
+   defined $relative_path && $filename =~ s/$relative_path//g;
    my $message = trim(join(" ", @tokens));
    print "\"$filename\",\"$message\"\n";
 }
