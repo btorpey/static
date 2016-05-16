@@ -5,13 +5,14 @@ This script parses a [compilation database](http://clang.llvm.org/docs/JSONCompi
 
 ## Usage
 
-cc\_driver.pl [-v] [-s] [-n] [-p build\_path]
+cc\_driver.pl [-d] [-v] [-s] [-n] [-p build\_path]
 [-i include\_pattern] [-x exclude\_pattern] command [parameters]
 
 ## Parameters
 
 Parameter | Description
 --- | ---
+-d  |   Debug -- print generated command to stdout, but don't execute it.  Implies -v (verbose).
 -v  |   Be verbose.  Displays generated commands to stdout.
 -s  |   Generate system include paths. See [System Include Files](#system-includes).
 -n  |   Don't include `-I` or `-D` parameters in the generated command. This can be useful when using the script to execute "normal" commands (e.g., grep) that don't take such parameters.
