@@ -1,7 +1,7 @@
 # Static Analysis Helper Scripts
 A few scripts that can be helpful in the use and evaluation of C++ static analysis tools.
 
-A blog post describing the use of these scripts with cppcheck and clang can be found at [](http://btorpey.github.io/blog/2015/10/13/remote-scripting-with-bash-and-ssh/).
+A blog post describing the use of these scripts with cppcheck and clang can be found at [here](http://btorpey.github.io/blog/2016/04/07/mo-static/).
 
 Script  | Description
 ------------- | -------------
