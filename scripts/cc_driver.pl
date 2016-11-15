@@ -182,9 +182,14 @@ while (<INFILE>) {
       ((defined $match)   && ($file !~ /$match/))   && ($run = 0);
       ((defined $exclude) && ($file =~ /$exclude/)) && ($run = 0);
       if ($run == 1) {
+         my $output;
          ($verbose == 1) && print "$cmd\n";
          if ($debug != 1) {
-            my $output = `$cmd 2>&1`;
+            $output = `$cmd 2>&1`;
+            my $rc = $?;
+            if ($rc != 0) {
+               die "$cmd returned $rc!";
+            }
             print "$output\n";
          }
       }

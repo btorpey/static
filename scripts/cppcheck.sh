@@ -16,6 +16,7 @@ cpp -dM </dev/null 2>/dev/null >${TEMPFILE}
 # note that you must also supply the required path in place of "<>"
 #LD_LIBRARY_PATH=<>:$LD_LIBRARY_PATH \
 cppcheck --enable=all --inconclusive \
+--error-exitcode=19 \
 --std=posix --std=c++03 --std=c++11 \
 --include=${TEMPFILE} \
 --platform=unix64 \
