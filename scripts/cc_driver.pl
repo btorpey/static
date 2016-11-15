@@ -28,7 +28,7 @@ sub getCXXIncludes
       }
       else {
          if ($capture == 1) {
-            $line =~ s/\(framework directory\)//;       # xcode silliness 
+            $line =~ s/\(framework directory\)//;       # xcode silliness
             my $include = "-I" . trim($line);
             push @includes, $include;
          }
@@ -95,7 +95,13 @@ if (-f $build_path) {
 }
 elsif(-d $build_path) {
     $compile_commands = $build_path . "/compile_commands.json";
-  } 
+}
+else {
+   die "$build_path doesn't exist!";
+}
+
+if (-e $build_path) {
+}
 else {
    die "$build_path doesn't exist!";
 }
@@ -177,8 +183,11 @@ while (<INFILE>) {
       ((defined $exclude) && ($file =~ /$exclude/)) && ($run = 0);
       if ($run == 1) {
          ($verbose == 1) && print "$cmd\n";
-         ($debug != 1) && system($cmd);
-      } 
+         if ($debug != 1) {
+            my $output = `$cmd 2>&1`;
+            print "$output\n";
+         }
+      }
       # exit on signal
       ($? & 127) && exit;
    }
