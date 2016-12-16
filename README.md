@@ -3,14 +3,16 @@ A few scripts that can be helpful in the use and evaluation of C++ static analys
 
 A blog post describing the use of these scripts with cppcheck and clang can be found [here](http://btorpey.github.io/blog/2016/04/07/mo-static/).
 
-Script  | Description
-------------- | -------------
-build_cppcheck.sh | Script to build cppcheck for installation in a non-standard location (i.e., not /usr, /usr/local).
-cc_driver.pl  | Iterates over a compilation database (compile_commands.json) file, and executes a specified command for each build target, passing the compiler flags from the normal build.
-cppcheck.sh | Invokes cppcheck defining a number of common parameters, also generates and includes compiler pre-defined macros.
-cppcheck2csv.pl  | Takes (filtered or un-filtered) output from cppcheck, and formats it in csv format.
-clang2csv.pl  | Takes (filtered or un-filtered) output from clang tools (clang-check and clang-tidy), and formats it in csv format.
-itc2csv.pl  | Takes a list of error annotations from ITC benchmark suite, and formats it in csv format.
+|Script  | Description
+|------------- | -------------
+|build_cppcheck.sh | Script to build cppcheck for installation in a non-standard location (i.e., not /usr, /usr/local).
+|cc_driver.pl  | Iterates over a compilation database (compile_commands.json) file, and executes a specified command for each build target, passing the compiler flags from the normal build.
+|cppcheck.sh | Invokes cppcheck defining a number of common parameters, also generates and includes compiler pre-defined macros.
+|cppcheck2csv.pl  | Takes (filtered or un-filtered) output from cppcheck, and formats it in csv format.
+|clang2csv.pl  | Takes (filtered or un-filtered) output from clang tools (clang-check and clang-tidy), and formats it in csv format.
+|itc2csv.pl  | Takes a list of error annotations from ITC benchmark suite, and formats it in csv format.
+|pvs2csv.pl  | Reformats output from PVS-Studio into csv format.
+|run_pvs.sh  | Script used to runs PVS-Studio against ITC benchmark code.
 
 Most of the scripts are written in Perl, simply because that was easiest (especially given the excellent debugging support available under [Eclipse](https://eclipse.org/) with [EPIC](http://www.epic-ide.org/)).
 
