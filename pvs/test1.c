@@ -13,6 +13,6 @@ void data_lost_001 ()
 
 int main(int argc, char** argv)
 {
-
+   data_lost_001();
    printf("Value of sink=%d\n", sink);
 }
