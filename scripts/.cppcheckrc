@@ -1,0 +1,7 @@
+--enable=all --inconclusive
+--error-exitcode=19
+--std=posix --std=c++03 --std=c++11
+--platform=unix64
+--suppress=unusedFunction
+--suppress=unmatchedSuppression
+--suppress=missingIncludeSystem
