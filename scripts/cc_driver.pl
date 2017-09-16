@@ -89,6 +89,7 @@ if ((scalar @exclude) > 0) {
 
 ###############################################################
 # main
+
 my $compile_commands;
 if (-f $build_path) {
    $compile_commands = $build_path;
@@ -164,7 +165,7 @@ while (<INFILE>) {
    elsif ($tokens[0] eq '"file":') {
       $file = trim($tokens[1]);
    }
-   elsif ($tokens[0] eq '},') {
+   elsif (($tokens[0] eq '},') || ($tokens[0] eq '}')) {
       # end of an entry
       my $params = join(" ", @params);
       my $system_includes = join(" ", @system_includes);
