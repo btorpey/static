@@ -1,25 +1,5 @@
 [
     {
-        "command": "gcc -o .sconf_temp/conftest_0.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE .sconf_temp/conftest_0.c",
-        "directory": ".",
-        "file": "./.sconf_temp/conftest_0.c"
-    },
-    {
-        "command": "gcc -o .sconf_temp/conftest_1.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c .sconf_temp/conftest_1.c",
-        "directory": ".",
-        "file": "./.sconf_temp/conftest_1.c"
-    },
-    {
-        "command": "gcc -o .sconf_temp/conftest_2.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c .sconf_temp/conftest_2.c",
-        "directory": ".",
-        "file": "./.sconf_temp/conftest_2.c"
-    },
-    {
-        "command": "gcc -o .sconf_temp/conftest_3.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c .sconf_temp/conftest_3.c",
-        "directory": ".",
-        "file": "./.sconf_temp/conftest_3.c"
-    },
-    {
         "command": "gcc -o build/common/c_cpp/src/c/MRSWLock.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/MRSWLock.c",
         "directory": ".",
         "file": "./common/c_cpp/src/c/MRSWLock.c"
@@ -133,11 +113,6 @@
         "command": "gcc -o build/common/c_cpp/src/c/wtable.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/wtable.c",
         "directory": ".",
         "file": "./common/c_cpp/src/c/wtable.c"
-    },
-    {
-        "command": "gcc -o build/common/c_cpp/src/c/properties.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp build/common/c_cpp/src/c/properties.c",
-        "directory": ".",
-        "file": "./build/common/c_cpp/src/c/properties.c"
     },
     {
         "command": "g++ -o build/common/c_cpp/src/cpp/Lock.o -c -Wall -Wno-long-long -fPIC -pedantic-errors -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/cpp -Icommon/c_cpp/src/cpp -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/cpp/Lock.cpp",
