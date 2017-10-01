@@ -1,0 +1,1612 @@
+[
+    {
+        "command": "gcc -o .sconf_temp/conftest_0.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE .sconf_temp/conftest_0.c",
+        "directory": ".",
+        "file": "./.sconf_temp/conftest_0.c"
+    },
+    {
+        "command": "gcc -o .sconf_temp/conftest_1.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c .sconf_temp/conftest_1.c",
+        "directory": ".",
+        "file": "./.sconf_temp/conftest_1.c"
+    },
+    {
+        "command": "gcc -o .sconf_temp/conftest_2.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c .sconf_temp/conftest_2.c",
+        "directory": ".",
+        "file": "./.sconf_temp/conftest_2.c"
+    },
+    {
+        "command": "gcc -o .sconf_temp/conftest_3.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c .sconf_temp/conftest_3.c",
+        "directory": ".",
+        "file": "./.sconf_temp/conftest_3.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/MRSWLock.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/MRSWLock.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/MRSWLock.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/destroyHandle.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/destroyHandle.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/destroyHandle.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/environment.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/environment.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/environment.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/fileparser.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/fileparser.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/fileparser.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/fileutils.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/fileutils.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/fileutils.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/libyywrap.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/libyywrap.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/libyywrap.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/list.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/list.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/list.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/lookup2.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/lookup2.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/lookup2.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/machine.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/machine.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/machine.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/machine_port.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/machine_port.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/machine_port.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/memnode.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/memnode.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/memnode.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/mempool.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/mempool.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/mempool.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/network.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/network.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/network.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/platform.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/platform.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/platform.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/property.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/property.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/property.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/queue.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/queue.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/queue.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/strutils.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/strutils.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/strutils.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/thread.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/thread.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/thread.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/timers.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/timers.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/timers.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/wMessageStats.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/wMessageStats.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/wMessageStats.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/wSemaphore.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/wSemaphore.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/wSemaphore.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/wlock.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/wlock.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/wlock.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/wtable.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/c/wtable.c",
+        "directory": ".",
+        "file": "./common/c_cpp/src/c/wtable.c"
+    },
+    {
+        "command": "gcc -o build/common/c_cpp/src/c/properties.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/c/linux -Icommon/c_cpp/src/c/linux -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp build/common/c_cpp/src/c/properties.c",
+        "directory": ".",
+        "file": "./build/common/c_cpp/src/c/properties.c"
+    },
+    {
+        "command": "g++ -o build/common/c_cpp/src/cpp/Lock.o -c -Wall -Wno-long-long -fPIC -pedantic-errors -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -DWITH_LIBXML -I/usr/include/libxml2 -Ibuild/common/c_cpp/src/cpp -Icommon/c_cpp/src/cpp -Ibuild/common/c_cpp/src/c -Icommon/c_cpp/src/c -Ibuild/common/c_cpp -Icommon/c_cpp common/c_cpp/src/cpp/Lock.cpp",
+        "directory": ".",
+        "file": "./common/c_cpp/src/cpp/Lock.cpp"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/bridge.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/clientmanageresponder.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/clientmanageresponder.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/clientmanageresponder.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/datetime.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/datetime.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/datetime.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dictionary.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dictionary.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dictionary.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dqstrategy.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dqstrategy.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dqstrategy.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/error.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/error.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/error.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/entitlement.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/entitlement.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/entitlement.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/entitlementlibraries.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/entitlementlibraries.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/entitlementlibraries.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fielddesc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fielddesc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fielddesc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/imagerequest.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/imagerequest.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/imagerequest.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/listenermsgcallback.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/listenermsgcallback.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/listenermsgcallback.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/log.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/log.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/log.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/mama.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/mama.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/mama.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/mamautils.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/mamautils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/mamautils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/mamaStrUtils.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/mamaStrUtils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/mamaStrUtils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/marketdata.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/marketdata.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/marketdata.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/plugin.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/plugin.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/plugin.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/middleware.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/middleware.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/middleware.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msg.o -c -Wno-deprecated-declarations -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msg.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msg.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgfield.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgfield.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgfield.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgqualifier.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgqualifier.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgqualifier.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgstatus.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgstatus.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgstatus.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgtype.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgtype.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgtype.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgutils.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgutils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgutils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/publisher.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/publisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/publisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dqpublisher.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dqpublisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dqpublisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dqpublishermanager.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dqpublishermanager.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dqpublishermanager.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/inbox.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/inbox.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/inbox.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/quality.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/quality.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/quality.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/registerfunctions.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/registerfunctions.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/registerfunctions.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/reservedfields.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/reservedfields.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/reservedfields.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/senderId.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/senderId.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/senderId.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/servicelevel.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/servicelevel.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/servicelevel.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/queue.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/queue.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/queue.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/io.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/io.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/io.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/price.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/price.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/price.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/priceimpl.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/priceimpl.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/priceimpl.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/refreshtransport.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/refreshtransport.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/refreshtransport.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/timer.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/timer.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/timer.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/timezone.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/timezone.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/timezone.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/source.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/source.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/source.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/sourceman.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/sourceman.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/sourceman.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/status.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/status.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/status.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/stat.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/stat.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/stat.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statscollector.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statscollector.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statscollector.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statfields.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statfields.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statfields.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statsgenerator.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statsgenerator.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statsgenerator.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/subscmsgtype.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/subscmsgtype.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/subscmsgtype.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/subscription.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/subscription.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/subscription.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/subscriptiontype.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/subscriptiontype.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/subscriptiontype.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statslogger.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statslogger.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statslogger.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statsloggerfields.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statsloggerfields.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statsloggerfields.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/symbollist.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/symbollist.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/symbollist.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/ft.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/ft.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/ft.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/version.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/version.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/version.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/symbollistmember.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/symbollistmember.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/symbollistmember.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/symbolmapfile.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/symbolmapfile.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/symbolmapfile.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/syncresponder.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/syncresponder.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/syncresponder.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/throttle.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/throttle.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/throttle.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/transport.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/transport.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/transport.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fileutils.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fileutils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fileutils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/playback/playbackFileParser.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/playback/playbackFileParser.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/playback/playbackFileParser.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/playback/playbackpublisher.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/playback/playbackpublisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/playback/playbackpublisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/playback/playbackcapture.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/playback/playbackcapture.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/playback/playbackcapture.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/conflation/connection.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/conflation/connection.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/conflation/connection.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/conflation/serverconnection.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/conflation/serverconnection.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/conflation/serverconnection.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/conflation/manager.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/conflation/manager.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/conflation/manager.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcache.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcache.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcache.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachefieldimpl.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachefieldimpl.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachefieldimpl.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcacheiterator.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcacheiterator.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcacheiterator.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachemaparray.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachemaparray.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachemaparray.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachemap.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachemap.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachemap.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcacherecord.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcacherecord.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcacherecord.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachefield.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachefield.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachefield.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcacheimpl.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcacheimpl.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcacheimpl.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachelist.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachelist.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachelist.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachevector.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachevector.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachevector.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/bridge.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/clientmanageresponder.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/clientmanageresponder.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/clientmanageresponder.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/datetime.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/datetime.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/datetime.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dictionary.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dictionary.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dictionary.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dqstrategy.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dqstrategy.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dqstrategy.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/error.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/error.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/error.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/entitlement.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/entitlement.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/entitlement.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/entitlementlibraries.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/entitlementlibraries.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/entitlementlibraries.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fielddesc.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fielddesc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fielddesc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/imagerequest.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/imagerequest.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/imagerequest.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/listenermsgcallback.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/listenermsgcallback.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/listenermsgcallback.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/log.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/log.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/log.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/mama.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/mama.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/mama.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/mamautils.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/mamautils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/mamautils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/mamaStrUtils.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/mamaStrUtils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/mamaStrUtils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/marketdata.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/marketdata.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/marketdata.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/plugin.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/plugin.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/plugin.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/middleware.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/middleware.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/middleware.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msg.os -c -Wno-deprecated-declarations -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msg.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msg.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgfield.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgfield.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgfield.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgqualifier.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgqualifier.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgqualifier.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgstatus.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgstatus.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgstatus.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgtype.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgtype.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgtype.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/msgutils.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/msgutils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/msgutils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/publisher.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/publisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/publisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dqpublisher.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dqpublisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dqpublisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/dqpublishermanager.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/dqpublishermanager.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/dqpublishermanager.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/inbox.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/inbox.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/inbox.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/quality.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/quality.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/quality.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/registerfunctions.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/registerfunctions.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/registerfunctions.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/reservedfields.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/reservedfields.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/reservedfields.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/senderId.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/senderId.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/senderId.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/servicelevel.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/servicelevel.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/servicelevel.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/queue.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/queue.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/queue.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/io.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/io.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/io.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/price.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/price.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/price.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/priceimpl.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/priceimpl.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/priceimpl.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/refreshtransport.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/refreshtransport.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/refreshtransport.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/timer.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/timer.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/timer.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/timezone.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/timezone.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/timezone.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/source.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/source.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/source.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/sourceman.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/sourceman.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/sourceman.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/status.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/status.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/status.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/stat.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/stat.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/stat.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statscollector.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statscollector.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statscollector.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statfields.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statfields.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statfields.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statsgenerator.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statsgenerator.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statsgenerator.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/subscmsgtype.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/subscmsgtype.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/subscmsgtype.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/subscription.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/subscription.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/subscription.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/subscriptiontype.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/subscriptiontype.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/subscriptiontype.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statslogger.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statslogger.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statslogger.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/statsloggerfields.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/statsloggerfields.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/statsloggerfields.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/symbollist.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/symbollist.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/symbollist.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/ft.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/ft.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/ft.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/version.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/version.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/version.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/symbollistmember.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/symbollistmember.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/symbollistmember.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/symbolmapfile.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/symbolmapfile.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/symbolmapfile.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/syncresponder.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/syncresponder.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/syncresponder.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/throttle.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/throttle.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/throttle.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/transport.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/transport.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/transport.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fileutils.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fileutils.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fileutils.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/playback/playbackFileParser.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/playback/playbackFileParser.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/playback/playbackFileParser.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/playback/playbackpublisher.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/playback/playbackpublisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/playback/playbackpublisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/playback/playbackcapture.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/playback/playbackcapture.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/playback/playbackcapture.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/conflation/connection.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/conflation/connection.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/conflation/connection.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/conflation/serverconnection.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/conflation/serverconnection.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/conflation/serverconnection.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/conflation/manager.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/conflation/manager.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/conflation/manager.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcache.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcache.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcache.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachefieldimpl.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachefieldimpl.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachefieldimpl.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcacheiterator.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcacheiterator.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcacheiterator.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachemaparray.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachemaparray.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachemaparray.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachemap.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachemap.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachemap.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcacherecord.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcacherecord.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcacherecord.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachefield.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachefield.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachefield.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcacheimpl.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcacheimpl.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcacheimpl.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachelist.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachelist.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachelist.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/fieldcache/fieldcachevector.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/fieldcache/fieldcachevector.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/fieldcache/fieldcachevector.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/bridge.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/bridge.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/bridge.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/bridge.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/bridge.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/bridge.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/codec.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/codec.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/codec.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/codec.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/codec.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/codec.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/endpointpool.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/endpointpool.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/endpointpool.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/endpointpool.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/endpointpool.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/endpointpool.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/inbox.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/inbox.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/inbox.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/inbox.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/inbox.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/inbox.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/io.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/io.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/io.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/io.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/io.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/io.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/msg.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/msg.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/msg.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/publisher.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/publisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/publisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/qpidcommon.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/qpidcommon.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/qpidcommon.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/queue.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/queue.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/queue.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/subscription.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/subscription.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/subscription.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/timer.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/timer.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/timer.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/transport.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/transport.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/transport.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/msg.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/msg.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/msg.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/publisher.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/publisher.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/publisher.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/qpidcommon.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/qpidcommon.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/qpidcommon.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/queue.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/queue.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/queue.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/subscription.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/subscription.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/subscription.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/timer.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/timer.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/timer.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/bridge/qpid/transport.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -I/usr/include -I/usr/include -Imama/c_cpp/src/c mama/c_cpp/src/c/bridge/qpid/transport.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/bridge/qpid/transport.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/entitlement/noop/noop.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O0 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/entitlement/noop -Imama/c_cpp/src/c/entitlement/noop mama/c_cpp/src/c/entitlement/noop/noop.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/entitlement/noop/noop.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/field.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/field.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/field.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/field.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/field.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/field.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/iterator.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/iterator.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/iterator.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/iterator.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/iterator.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/iterator.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/payload.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/payload.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/payload.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/qpidcommon.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/qpidcommon.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/qpidcommon.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/payload.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/payload.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/payload.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/c/payload/qpidmsg/qpidcommon.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -Werror -g -O2 -pthread -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -fPIC -D_GNU_SOURCE -I/usr/include/apr-1 -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommon/c_cpp/src/c -Ibuild/mama/c_cpp/src/c/payload/qpidmsg -Imama/c_cpp/src/c/payload/qpidmsg -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/usr/include -Icommon/c_cpp/src/c mama/c_cpp/src/c/payload/qpidmsg/qpidcommon.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/c/payload/qpidmsg/qpidcommon.c"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaBasicSubscription.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaBasicSubscription.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaBasicSubscription.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaBasicSubscription.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaBasicSubscription.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaBasicSubscription.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaBasicWildCardSubscription.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaBasicWildCardSubscription.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaBasicWildCardSubscription.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaBasicWildCardSubscription.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaBasicWildCardSubscription.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaBasicWildCardSubscription.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDQPublisher.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDQPublisher.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDQPublisher.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDQPublisher.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDQPublisher.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDQPublisher.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDQPublisherManager.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDQPublisherManager.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDQPublisherManager.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDQPublisherManager.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDQPublisherManager.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDQPublisherManager.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDictionary.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDictionary.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDictionary.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDictionary.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDictionary.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDictionary.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDispatcher.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDispatcher.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDispatcher.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaDispatcher.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaDispatcher.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaDispatcher.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaFieldDescriptor.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaFieldDescriptor.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaFieldDescriptor.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaFieldDescriptor.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaFieldDescriptor.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaFieldDescriptor.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaFt.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaFt.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaFt.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaFt.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaFt.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaFt.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaInbox.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaInbox.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaInbox.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaInbox.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaInbox.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaInbox.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaIo.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaIo.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaIo.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaIo.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaIo.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaIo.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaLogFile.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaLogFile.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaLogFile.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaLogFile.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaLogFile.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaLogFile.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaMsg.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaMsg.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaMsg.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaMsg.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaMsg.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaMsg.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaMsgField.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaMsgField.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaMsgField.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaMsgField.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaMsgField.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaMsgField.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaMsgQual.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaMsgQual.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaMsgQual.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaMsgQual.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaMsgQual.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaMsgQual.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaPrice.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaPrice.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaPrice.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaPrice.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaPrice.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaPrice.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaPublisher.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaPublisher.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaPublisher.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaPublisher.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaPublisher.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaPublisher.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaQueue.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaQueue.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaQueue.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaQueue.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaQueue.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaQueue.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaQueueGroup.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaQueueGroup.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaQueueGroup.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaQueueGroup.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaQueueGroup.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaQueueGroup.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaReservedFields.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaReservedFields.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaReservedFields.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaReservedFields.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaReservedFields.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaReservedFields.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSource.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSource.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSource.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSource.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSource.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSource.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceDerivative.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceDerivative.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceDerivative.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceDerivative.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceDerivative.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceDerivative.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceGroup.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceGroup.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceGroup.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceGroup.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceGroup.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceGroup.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceGroupManager.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceGroupManager.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceGroupManager.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceGroupManager.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceGroupManager.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceGroupManager.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceManager.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceManager.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceManager.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSourceManager.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSourceManager.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSourceManager.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaStat.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaStat.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaStat.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaStat.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaStat.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaStat.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaStatsCollector.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaStatsCollector.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaStatsCollector.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaStatsCollector.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaStatsCollector.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaStatsCollector.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaStatus.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaStatus.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaStatus.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaStatus.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaStatus.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaStatus.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSubscription.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSubscription.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSubscription.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSubscription.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSubscription.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSubscription.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSymbolList.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSymbolList.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSymbolList.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSymbolList.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSymbolList.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSymbolList.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSymbolListMember.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSymbolListMember.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSymbolListMember.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSymbolListMember.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSymbolListMember.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSymbolListMember.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSymbolMapFile.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSymbolMapFile.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSymbolMapFile.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaSymbolMapFile.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaSymbolMapFile.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaSymbolMapFile.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTimeZone.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTimeZone.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTimeZone.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTimeZone.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTimeZone.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTimeZone.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTimer.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTimer.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTimer.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTimer.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTimer.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTimer.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTransport.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTransport.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTransport.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTransport.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTransport.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTransport.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTransportMap.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTransportMap.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTransportMap.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/MamaTransportMap.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/MamaTransportMap.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/MamaTransportMap.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/conflation/MamaConnection.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/conflation/MamaConnection.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/conflation/MamaConnection.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/conflation/MamaConnection.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/conflation/MamaConnection.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/conflation/MamaConnection.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/conflation/MamaServerConnection.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/conflation/MamaServerConnection.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/conflation/MamaServerConnection.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/conflation/MamaServerConnection.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/conflation/MamaServerConnection.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/conflation/MamaServerConnection.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/datetime.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/datetime.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/datetime.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/datetime.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/datetime.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/datetime.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCache.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCache.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCache.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCache.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCache.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCache.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheField.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheField.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheField.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheField.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheField.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheField.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheFieldTypes.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheFieldTypes.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheFieldTypes.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheFieldTypes.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheFieldTypes.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheFieldTypes.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheRecord.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheRecord.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheRecord.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheRecord.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheRecord.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/fieldcache/MamaFieldCacheRecord.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/mamacpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/mamacpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/mamacpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/cpp/mamacpp.os -c -Wall -Wno-long-long -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Icommmon/c_cpp/src/c mama/c_cpp/src/cpp/mamacpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/cpp/mamacpp.cpp"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamaftmemberc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamaftmemberc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamaftmemberc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamainboxc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamainboxc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamainboxc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamaio.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamaio.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamaio.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamalistenc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamalistenc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamalistenc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamalistencachedc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamalistencachedc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamalistencachedc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamamultisubscriberc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamamultisubscriberc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamamultisubscriberc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamaproxyc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamaproxyc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamaproxyc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamapublisherc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamapublisherc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamapublisherc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamasubscriberc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamasubscriberc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamasubscriberc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/mamasymbollistsubscriberc.o -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c -Imama/c_cpp/src/examples/c -Ibuild/mama/c_cpp/c -Imama/c_cpp/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/c/mamasymbollistsubscriberc.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/mamasymbollistsubscriberc.c"
+    },
+    {
+        "command": "gcc -o build/mama/c_cpp/src/examples/c/plugin/mamaPluginTemplate.os -c -std=gnu99 -Wmissing-prototypes -Wstrict-prototypes -g -O0 -pedantic-errors -fPIC -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/c/plugin -Imama/c_cpp/src/examples/c/plugin -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Icommon/c_cpp/src/c -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include -Ibuild/mama/c_cpp/src/examples/c/plugin -Imama/c_cpp/src/examples/c/plugin -Ibuild/mama/c_cpp/c -Imama/c_cpp/c mama/c_cpp/src/examples/c/plugin/mamaPluginTemplate.c",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/c/plugin/mamaPluginTemplate.c"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamaftmembercpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamaftmembercpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamaftmembercpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamainboxcpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamainboxcpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamainboxcpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamaiocpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamaiocpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamaiocpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamalistencachedcpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamalistencachedcpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamalistencachedcpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamalistencpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamalistencpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamalistencpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamaproxycpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamaproxycpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamaproxycpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamapublishercpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamapublishercpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamapublishercpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamasubscribercpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamasubscribercpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamasubscribercpp.cpp"
+    },
+    {
+        "command": "g++ -o build/mama/c_cpp/src/examples/cpp/mamasymbollistsubscribercpp.o -c -Wall -Wno-long-long -g -O0 -pedantic-errors -D_GNU_SOURCE -Ibuild/mama/c_cpp/src/examples/cpp -Imama/c_cpp/src/examples/cpp -Ibuild/mama/c_cpp/src/c -Imama/c_cpp/src/c -Ibuild/mama/c_cpp/src/cpp -Imama/c_cpp/src/cpp -Icommon/c_cpp/src/c -Icommon/c_cpp/src/cpp -I/home/btorpey/install/OpenMAMA/6.2.1/dev/include mama/c_cpp/src/examples/cpp/mamasymbollistsubscribercpp.cpp",
+        "directory": ".",
+        "file": "./mama/c_cpp/src/examples/cpp/mamasymbollistsubscribercpp.cpp"
+    }
+]
