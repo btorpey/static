@@ -8,14 +8,9 @@ export PATH=${SCRIPT_DIR}:$PATH
 export SRC_ROOT=$(pwd)
 
 # check to make sure we have what we need
-which cppcheck.sh 2>&1 >/dev/null
+which clang-tidy 2>&1 >/dev/null
 if [[ $? -ne 0 ]]; then
-   >&2 echo "cppcheck.sh not found!"
-   exit 1
-fi
-which cppcheck 2>&1 >/dev/null
-if [[ $? -ne 0 ]]; then
-   >&2 echo "cppcheck not found!"
+   >&2 echo "clang-tidy not found!"
    exit 1
 fi
 
