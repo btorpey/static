@@ -5,7 +5,7 @@ SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE}) && /bin/pwd)
 export PATH=${SCRIPT_DIR}:$PATH
 
 # assume source is in current dir
-export SRC_ROOT=$(/bin/pwd)
+export SRC_ROOT=$(pwd)
 
 # check to make sure we have what we need
 which cppcheck.sh 2>&1 >/dev/null
