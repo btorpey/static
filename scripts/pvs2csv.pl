@@ -1,10 +1,18 @@
 #!/usr/bin/perl
 #
-# Copyright 2016 by Bill Torpey. All Rights Reserved.
+# Copyright 2018 by Bill Torpey. All Rights Reserved.
 # This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 United States License.
 # http://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en
 #
+
+#
+# This script takes output from PVS-Studio plog-converter and converts it to format used for other 
+# tools. 
+#
+
 use strict;
+
+use Text::ParseWords;
 
 ###############################################################
 # trims quotes, leading & trailing spaces, etc. from a string
@@ -37,17 +45,30 @@ GetOptions('r=s' => \$relative_path);
      *INFILE = *STDIN;
  }
 
+my @cols;
 # main loop
+
+# skip first two lines
+<INFILE>;
+<INFILE>;
+
 while (<INFILE>) {
-   my $line = $_;
-   my $i = index($line, "(");
-   my $j = index($line, "):", $i);
-   my $filename = substr($line, 0, $i);
-   #$filename =~ s/^\.\.\///;                  # remove leading "../" from path 
-   my $lineno = substr($line, $i+1, ($j-$i)-1);
-   my $errStr = substr($line, $j+3);
-   chomp($errStr);
-   print "\"$filename:$lineno\",\"$errStr\"\n";
+   ($_ =~ 'Total messages:') && next;                              
+   ($_ =~ 'Filtered messages:') && next;                              
+   
+   @cols = Text::ParseWords::parse_line(',', 0, $_);
+   
+   my $type = $cols[1];
+   my $msg = $cols[3];
+   my $filename = trim($cols[6]);
+   defined $relative_path && $filename =~ s/$relative_path//;
+   my $lineno = $cols[5];
+   
+   my @ids = Text::ParseWords::parse_line(',', 0, $cols[2]);
+   my $id = substr($ids[1], 1, -1);
+   next if ($id eq 'Renew');
+   
+   printf("\"$filename:$lineno\",\"$type: $id $msg\"\n");
 }
 
 close(INFILE);
