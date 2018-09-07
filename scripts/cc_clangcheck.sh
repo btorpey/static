@@ -35,7 +35,7 @@ read -r -d '' COMMAND << 'EOF'
 `which cc_driver.pl` -v ${INCLUDE} ${EXCLUDE} ${CCFILE} `which clang-check` -analyze 2>&1 |
 grep "warning:" |                                     # filter out everything but clang diagnostics
 sed "s:${SRC_ROOT}\/::g" |                            # make all paths under SRC_ROOT relative
-sed 's:^\[\.\./:\[:' |                                # filter out leading "../" in paths (reduce duplicate reports)
+sed 's:^\.\./::' |                                    # filter out leading "../" in paths (reduce duplicate reports)
 sort -u
 EOF
 
