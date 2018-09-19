@@ -115,6 +115,8 @@ if ($include_sys_headers == 1) {
    }
 }
 
+#print " ARGV[0] = $ARGV[0]\n";
+
 open(INFILE, "<:crlf", "$compile_commands") or die "Cant open $compile_commands\n";
 
 my @params;
@@ -174,6 +176,9 @@ while (<INFILE>) {
          # clang tools use a specific command line format
          $cmd = "cd $directory;@ARGV $file -- $params $system_includes $compiler_includes";
       }
+      elsif ($ARGV[0] =~ /pvs/) {
+         $cmd = "cd $directory;@ARGV --source-file $file --cl-params \"$params $system_includes $compiler_includes $file\" ";
+      }
       else {
          # else assume that command format is same as normal compiler command
          $cmd = "cd $directory;@ARGV $params $system_includes $compiler_includes $file";
@@ -191,7 +196,7 @@ while (<INFILE>) {
             if ($rc != 0) {
                die "$cmd returned $rc!";
             }
-            print "$output\n";
+            print "$output\n" if $output;
          }
       }
       # exit on signal
