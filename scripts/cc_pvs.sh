@@ -33,7 +33,7 @@ while getopts ':cdp:i:x:' flag; do
     d) DEBUG="-d" ;;
     p) export CCFILE="-p ${OPTARG}" ;;
     i) export INCLUDE="${INCLUDE} -i ${OPTARG}" ;;
-    x) export EXCLUDE="${EXCLUDE} -e ${OPTARG}" ;;
+    x) export EXCLUDE="${EXCLUDE} -x ${OPTARG}" ;;
     g) export CONFIG="${OPTARG}" ;;
   esac
 done
@@ -54,4 +54,4 @@ sed 's:^\.\./::' |                                    # filter out leading "../"
 ${CSV} |                                              # convert to csv format, if necessary
 sort -u
 
-rm -f ${TEMPFILE} 2>&1 >/dev/null
+rm -f ${TEMPFILE} >/dev/null 2>&1

@@ -29,10 +29,13 @@ while getopts ':cdp:i:x:' flag; do
   esac
 done
 shift $(($OPTIND - 1))
+[[ $1 = "--" ]] && shift
+export PARMS=$*
+echo ${PARMS}
 
 read -r -d '' COMMAND << 'EOF'
 # iterate over compilation db, generate and filter results
-`which cc_driver.pl` -v ${INCLUDE} ${EXCLUDE} ${CCFILE} `which clang-tidy` 2>&1 |
+`which cc_driver.pl` -v ${INCLUDE} ${EXCLUDE} ${CCFILE} `which clang-tidy` ${PARMS} 2>&1 |
 grep "warning:" |                                     # filter out everything but clang diagnostics
 sed "s:${SRC_ROOT}\/::g" |                            # make all paths under SRC_ROOT relative
 sed 's:^\.\./::' |                                    # filter out leading "../" in paths (reduce duplicate reports)
@@ -40,7 +43,7 @@ sort -u
 EOF
 
 if [[ ${DEBUG} -eq 1 ]]; then
-   bash -c "echo '${COMMAND} ${SUPPRESS} ${CSV}'"
+   bash -c "echo \"${COMMAND} ${SUPPRESS} ${CSV}\""
 else
    bash -c "${COMMAND} ${SUPPRESS} ${CSV}"
 fi

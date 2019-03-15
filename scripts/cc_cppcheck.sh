@@ -45,7 +45,7 @@ sort -u
 EOF
 
 if [[ ${DEBUG} -eq 1 ]]; then
-   bash -c "echo '${COMMAND} ${SUPPRESS} ${CSV}'"
+   bash -c "echo \"${COMMAND} ${SUPPRESS} ${CSV}\""
 else
    bash -c "${COMMAND} ${SUPPRESS} ${CSV}"
 fi
