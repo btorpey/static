@@ -115,11 +115,13 @@ if ($include_sys_headers == 1) {
    }
 }
 
-#print " ARGV[0] = $ARGV[0]\n";
+print " ARGV[0] = $ARGV[0]\n";
 
 open(INFILE, "<:crlf", "$compile_commands") or die "Cant open $compile_commands\n";
 
 my @params;
+# note that directories specified w/"-isystem" are searched after directories specifed w/"-I"
+# (see https://gcc.gnu.org/onlinedocs/gcc/Directory-Options.html)
 my @system_includes;
 my $directory;
 my $file;
@@ -147,10 +149,19 @@ while (<INFILE>) {
             elsif (substr($tokens[$i], 0, 2) eq "-I") {
                push @params, $tokens[$i];
             }
-            elsif (substr($tokens[$i], 0, 8) eq "-isystem") {
-               if ($include_sys_headers == 1) {
-                  push @system_includes, "-I" . $tokens[++$i];
+            elsif (substr($tokens[$i], 0, 5) eq "-std=") {
+               # clang & pvs both invoke the compiler as part of static analysis, which needs to know the standard,
+               # esp. when the compiler defaults to c++1x mode, but code being analyzed is written to a different (older) standard
+               if ($ARGV[0] !~ /cppcheck/) {
+                  # cppcheck doesn't like this flag
+                  push @params, $tokens[$i];
                }
+            }
+            elsif (substr($tokens[$i], 0, 8) eq "-isystem") {
+               push @system_includes, "-I " . $tokens[++$i];
+               # if ($ARGV[0] !~ /cppcheck/) {
+               #    push @system_includes, "-I " . $tokens[++$i];
+               # }
             }
             elsif ($tokens[$i] eq "-fstack-usage") {
                # skip it -- not material to analysis, and clang errors out
@@ -192,11 +203,11 @@ while (<INFILE>) {
          ($verbose == 1) && print "$cmd\n";
          if ($debug != 1) {
             $output = `$cmd 2>&1`;
+            print "$output\n" if $output;
             my $rc = $?;
             if ($rc != 0) {
                die "$cmd returned $rc!";
             }
-            print "$output\n" if $output;
          }
       }
       # exit on signal

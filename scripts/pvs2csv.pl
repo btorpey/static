@@ -6,8 +6,8 @@
 #
 
 #
-# This script takes output from PVS-Studio plog-converter and converts it to format used for other 
-# tools. 
+# This script takes output from PVS-Studio plog-converter and converts it to format used for other
+# tools.
 #
 
 use strict;
@@ -48,27 +48,24 @@ GetOptions('r=s' => \$relative_path);
 my @cols;
 # main loop
 
-# skip first two lines
-<INFILE>;
-<INFILE>;
-
 while (<INFILE>) {
-   ($_ =~ 'Total messages:') && next;                              
-   ($_ =~ 'Filtered messages:') && next;                              
-   
+   ($_ =~ 'Total messages:') && next;
+   ($_ =~ 'Filtered messages:') && next;
+
    @cols = Text::ParseWords::parse_line(',', 0, $_);
-   
-   my $type = $cols[1];
-   my $msg = $cols[3];
-   my $filename = trim($cols[6]);
-   defined $relative_path && $filename =~ s/$relative_path//;
-   my $lineno = $cols[5];
-   
-   my @ids = Text::ParseWords::parse_line(',', 0, $cols[2]);
-   my $id = substr($ids[1], 1, -1);
-   next if ($id eq 'Renew');
-   
-   printf("\"$filename:$lineno\",\"$type: $id $msg\"\n");
+   if (@cols != 0) {
+      my $type = $cols[1];
+      my $msg = $cols[3];
+      my $filename = trim($cols[6]);
+      defined $relative_path && $filename =~ s/$relative_path//;
+      my $lineno = $cols[5];
+
+      my @ids = Text::ParseWords::parse_line(',', 0, $cols[2]);
+      my $id = substr($ids[1], 1, -1);
+      next if ($id eq 'Renew');
+
+      printf("\"$filename:$lineno\",\"$type: $id $msg\"\n");
+   }
 }
 
 close(INFILE);

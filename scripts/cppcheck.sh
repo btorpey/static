@@ -8,6 +8,10 @@
 # http://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en
 #
 
+function slurp {
+   echo $(egrep -v '^$|^#' $1)
+}
+
 # its a very good idea to include compiler builtin definitions
 TEMPFILE=$(mktemp)
 cpp -dM </dev/null 2>/dev/null >${TEMPFILE}
@@ -20,8 +24,8 @@ if [[ -z "${CPPCHECK_OPTS}" ]]; then
    if [[ -e ./.cppcheckrc ]]; then
       export CPPCHECK_OPTS=$(<./.cppcheckrc)
    # SRC_ROOT
-   elif [[ -z ${SRC_ROOT} && -e ${SRC_ROOT}/.cppcheckrc ]]; then
-      export CPPCHECK_OPTS=$(<${SRC_ROOT}/.cppcheckrc)
+   elif [[ -n ${SRC_ROOT} && -e ${SRC_ROOT}/.cppcheckrc ]]; then
+      export CPPCHECK_OPTS=$(slurp ${SRC_ROOT}/.cppcheckrc)
    # home dir
    elif [[ -e ~/.cppcheckrc ]]; then
       export CPPCHECK_OPTS=$(<~/.cppcheckrc)

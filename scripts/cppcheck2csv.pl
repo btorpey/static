@@ -40,11 +40,13 @@ GetOptions('r=s' => \$relative_path);
 while (<INFILE>) {
    ($_ =~ '^\[') || next;                     # skip lines that are not cppcheck warnings
    my @tokens = split("]:", $_);
-   my $filename = trim(shift @tokens);
-   $filename =~ s/^\.\.\///;                  # remove leading "../" from path 
-   defined $relative_path && $filename =~ s/$relative_path//g;
-   my $message = trim(join(" ", @tokens));
-   print "\"$filename\",\"$message\"\n";
+   if (@tokens != 0) {
+     my $filename = trim(shift @tokens);
+     $filename =~ s/^\.\.\///;                  # remove leading "../" from path
+     defined $relative_path && $filename =~ s/$relative_path//g;
+     my $message = trim(join(" ", @tokens));
+     print "\"$filename\",\"$message\"\n";
+   }
 }
 
 close(INFILE);

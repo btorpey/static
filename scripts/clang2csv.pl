@@ -35,15 +35,16 @@ GetOptions('r=s' => \$relative_path);
  }
 
 while (<INFILE>) {
-   #($_ =~ 'warning:|note:') || next;                     # skip lines that are not clang warnings
    ($_ =~ 'warning:') || next;                            # skip lines that are not clang warnings
    my @tokens = split(" ", $_);
-   my @filename = split(':', shift @tokens);
-   my $filename = $filename[0] . ':' . $filename [1];
-   defined $relative_path && $filename =~ s/$relative_path//;
-   $filename = trim($filename);
-   my $message = trim(join(" ", @tokens));
-   print "\"$filename\",\"$message\"\n";
+   if (@tokens != 0) {
+     my @filename = split(':', shift @tokens);
+     my $filename = $filename[0] . ':' . $filename [1];
+     defined $relative_path && $filename =~ s/$relative_path//;
+     $filename = trim($filename);
+     my $message = trim(join(" ", @tokens));
+     print "\"$filename\",\"$message\"\n";
+   }
 }
 
 close(INFILE);
