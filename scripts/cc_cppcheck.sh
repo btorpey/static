@@ -1,4 +1,4 @@
-#!/bin/bash -vx
+#!/bin/bash 
 
 # ensure helper scripts are available
 export SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE}) && /bin/pwd)
