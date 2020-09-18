@@ -15,8 +15,7 @@ sub trim
       s/^\s+//;
       s/\s+$//;
       s/"//g;
-      s/\[//g;
-      s/\]//g;
+      s/^\[//;
    }
    return wantarray ? @out : $out[0];
 }

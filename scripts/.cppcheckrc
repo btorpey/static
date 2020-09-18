@@ -5,3 +5,4 @@
 --suppress=unusedFunction
 --suppress=unmatchedSuppression
 --suppress=missingIncludeSystem
+--template="[{file}:{line}]: ({severity}) {message} [{id}]"

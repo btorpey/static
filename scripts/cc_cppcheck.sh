@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # ensure helper scripts are available
 export SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE}) && /bin/pwd)
@@ -10,7 +10,7 @@ export SRC_ROOT=$(pwd)
 export SRC_ROOT2=$(/bin/pwd)
 
 # check to make sure we have what we need
-which cppcheck.sh 2>&1 >/dev/null
+which cppcheck.pl 2>&1 >/dev/null
 if [[ $? -ne 0 ]]; then
    >&2 echo "cppcheck.sh not found!"
    exit 1
@@ -44,7 +44,7 @@ TEMPFILE=$(mktemp /tmp/cppcheck-XXXX)
 rm -f ${TEMPFILE} 2>&1 >/dev/null
 
 # iterate over compilation db and generate results
-${SCRIPT_DIR}/cc_driver.pl "${passThru[@]}" ${SCRIPT_DIR}/cppcheck.sh >${TEMPFILE}
+${SCRIPT_DIR}/cc_driver.pl "${passThru[@]}" ${SCRIPT_DIR}/cppcheck.pl >${TEMPFILE}
 if [[ $? != 0 ]]; then
    echo "..."
    tail ${TEMPFILE}

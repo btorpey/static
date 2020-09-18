@@ -1,10 +1,10 @@
-# cppcheck.sh
+# cppcheck.pl
 {:.no_toc}
 
 This script wraps cppcheck and supplies common parameters, as well as pre-defined compiler definitions.
 
 ## Usage
-cppcheck.sh [parameters] [file]
+cppcheck.pl [parameters] [file]
 
 ## Notes
 This script is normally invoked through the cc_driver.pl script, which supplies definitions from the file's entry in the compilation database (`-I` and `-D` parameters).
