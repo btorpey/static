@@ -18,6 +18,7 @@ sub readOptions
    open(my $fh, '<', $file) or die "cannot open file $file";
    while(<$fh>) {
       chomp;
+      ($_ =~ '^#') && next;                            # skip comments
       $temp .= " $_";
    }
    close($fh);
@@ -51,6 +52,6 @@ if ($options eq "") {
    }
 }
 
-my $cmd = "cppcheck --include=$tempFile $options @ARGV";
+my $cmd = "cppcheck --include=$tempFile --template=\"[{file}:{line}]: ({severity}) {message} [{id}]\" $options @ARGV";
 print("$cmd\n");
 system("$cmd");
