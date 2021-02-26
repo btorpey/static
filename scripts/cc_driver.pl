@@ -6,6 +6,8 @@
 #
 use strict;
 
+use File::Spec;
+
 ###############################################################
 # get compiler's default include path
 sub getCXXIncludes
@@ -125,6 +127,8 @@ my @params;
 my @system_includes;
 my $directory;
 my $file;
+my $vol;
+
 while (<INFILE>) {
    my @tokens = split(" ", $_);
    if ($tokens[0] eq '{') {
@@ -172,11 +176,15 @@ while (<INFILE>) {
          }
       }
    }
-   elsif ($tokens[0] eq '"directory":') {
-      $directory = trim($tokens[1]);
-   }
    elsif ($tokens[0] eq '"file":') {
-      $file = trim($tokens[1]);
+      my $path = trim($tokens[1]);
+      ($vol,$directory,$file) = File::Spec->splitpath($path);
+      
+#      print "path=$path\n";
+#      print "vol=$vol\n";
+#      print "directory=$directory\n";
+#      print "file=$file\n";
+      
    }
    elsif (($tokens[0] eq '},') || ($tokens[0] eq '}')) {
       # end of an entry
