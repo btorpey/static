@@ -52,6 +52,6 @@ if ($options eq "") {
    }
 }
 
-my $cmd = "cppcheck --include=$tempFile --template=\"[{file}:{line}]: ({severity}) {message} [{id}]\" $options @ARGV";
+my $cmd = "cppcheck --inline-suppr --include=$tempFile --template=\"[{file}:{line}]: ({severity}) {message} [{id}]\" $options @ARGV";
 print("$cmd\n");
 system("$cmd");
