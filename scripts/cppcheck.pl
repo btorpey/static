@@ -6,13 +6,14 @@
 #
 use strict;
 
-use Cwd;
+use Cwd qw(abs_path cwd);
 use File::Temp qw/ :POSIX/;
 use File::Basename;
 
 sub readOptions
 {
    my $file = shift;
+#   print("readOptions from $file\n");
 
    my $temp;
    open(my $fh, '<', $file) or die "cannot open file $file";
@@ -33,22 +34,18 @@ my $rc = system("cpp -dM </dev/null 2>/dev/null >$tempFile");
 
 my $scriptDir = dirname(__FILE__);
 
-my $options = $ENV{'CPPCHECK_OPTS'};
-if ($options eq "") {
-   my $cwd = getcwd();
-   my $srcRoot = $ENV{'SRC_ROOT'};
-   my $srcRoot2 = $ENV{'SRC_ROOT2'};
-   if (-e "$srcRoot/.cppcheckrc") {
-      $options = readOptions("$srcRoot/.cppcheckrc");
+my $srcDir = $ENV{'SRC_ROOT'};
+my $srcDir = abs_path($srcDir);
+my $dir = cwd();
+# do like clang-tidy and look for .cppcheckrc in source file directory and its parents
+my $options;
+while (length($dir) > length($srcDir)) {
+   if (-e "$dir/.cppcheckrc") {
+      $options = readOptions("$dir/.cppcheckrc");
+      last;
    }
-   elsif (-e "$srcRoot2/.cppcheckrc") {
-      $options = readOptions("$srcRoot2/.cppcheckrc");
-   }
-   elsif (-e "~/.cppcheckrc") {
-      $options = readOptions("~/.cppcheckrc");
-   }
-   elsif (-e "$scriptDir/.cppcheckrc") {
-      $options = readOptions("$scriptDir/.cppcheckrc");
+   else {
+      $dir = dirname($dir);
    }
 }
 
