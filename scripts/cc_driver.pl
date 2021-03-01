@@ -128,6 +128,7 @@ my @system_includes;
 my $directory;
 my $file;
 my $vol;
+my $full_path;
 
 while (<INFILE>) {
    my @tokens = split(" ", $_);
@@ -179,6 +180,7 @@ while (<INFILE>) {
    elsif ($tokens[0] eq '"file":') {
       my $path = trim($tokens[1]);
       ($vol,$directory,$file) = File::Spec->splitpath($path);
+      $full_path = File::Spec->catpath( $vol, $directory, $file );      
       
 #      print "path=$path\n";
 #      print "vol=$vol\n";
@@ -198,14 +200,18 @@ while (<INFILE>) {
       elsif ($ARGV[0] =~ /pvs/) {
          $cmd = "cd $directory;@ARGV --source-file $file --cl-params \"$params $system_includes $compiler_includes $file\" ";
       }
+      elsif ($ARGV[0] =~ /cppcheck/) {
+         # pass full path to cppcheck 
+         $cmd = "cd $directory;@ARGV $params $system_includes $compiler_includes $full_path";
+      }
       else {
          # else assume that command format is same as normal compiler command
          $cmd = "cd $directory;@ARGV $params $system_includes $compiler_includes $file";
       }
       # include/exclude file based on -i/-x param
       my $run = 1;
-      ((defined $match)   && ($file !~ /$match/))   && ($run = 0);
-      ((defined $exclude) && ($file =~ /$exclude/)) && ($run = 0);
+      ((defined $match)   && ($full_path !~ /$match/))   && ($run = 0);
+      ((defined $exclude) && ($full_path =~ /$exclude/)) && ($run = 0);
       if ($run == 1) {
          my $output;
          ($verbose == 1) && print "$cmd\n";
