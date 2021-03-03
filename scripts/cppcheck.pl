@@ -36,10 +36,12 @@ my $scriptDir = dirname(__FILE__);
 
 my $srcDir = $ENV{'SRC_ROOT'};
 my $srcDir = abs_path($srcDir);
+#print("srcDir=$srcDir\n");
 my $dir = cwd();
 # do like clang-tidy and look for .cppcheckrc in source file directory and its parents
 my $options;
-while (length($dir) > length($srcDir)) {
+while (length($dir) >= length($srcDir)) {
+   #print("trying $dir\n");
    if (-e "$dir/.cppcheckrc") {
       $options = readOptions("$dir/.cppcheckrc");
       last;
@@ -50,5 +52,5 @@ while (length($dir) > length($srcDir)) {
 }
 
 my $cmd = "cppcheck --inline-suppr --include=$tempFile --template=\"[{file}:{line}]: ({severity}) {message} [{id}]\" $options @ARGV";
-print("$cmd\n");
+#print("$cmd\n");
 system("$cmd");

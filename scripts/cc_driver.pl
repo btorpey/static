@@ -186,6 +186,7 @@ while (<INFILE>) {
 #      print "vol=$vol\n";
 #      print "directory=$directory\n";
 #      print "file=$file\n";
+#      print "full_path=$full_path\n";
       
    }
    elsif (($tokens[0] eq '},') || ($tokens[0] eq '}')) {
