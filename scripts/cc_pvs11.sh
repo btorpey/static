@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 
 # ensure helper scripts are available
 SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE}) && /bin/pwd)
@@ -53,7 +53,7 @@ TEMPFILE=$(mktemp /tmp/pvsstudio-XXXX)
 rm -f ${TEMPFILE} 2>&1 >/dev/null
 
 # iterate over compilation db and generate results
-cc_driver.pl  "${passThru[@]}" pvs-studio ${CONFIG} ${PVSCONFIG} --output-file ${TEMPFILE} >/dev/null
+cc_driver.pl "${passThru[@]}" pvs-studio-analyzer analyze ${CONFIG} --output-file ${TEMPFILE} >/dev/null
 if [[ $? != 0 ]]; then
    echo "..."
    tail ${TEMPFILE}

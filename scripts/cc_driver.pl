@@ -180,14 +180,14 @@ while (<INFILE>) {
    elsif ($tokens[0] eq '"file":') {
       my $path = trim($tokens[1]);
       ($vol,$directory,$file) = File::Spec->splitpath($path);
-      $full_path = File::Spec->catpath( $vol, $directory, $file );      
-      
+      $full_path = File::Spec->catpath( $vol, $directory, $file );
+
 #      print "path=$path\n";
 #      print "vol=$vol\n";
 #      print "directory=$directory\n";
 #      print "file=$file\n";
 #      print "full_path=$full_path\n";
-      
+
    }
    elsif (($tokens[0] eq '},') || ($tokens[0] eq '}')) {
       # end of an entry
@@ -198,11 +198,14 @@ while (<INFILE>) {
          # clang tools use a specific command line format
          $cmd = "cd $directory;@ARGV $file -- $params $system_includes $compiler_includes";
       }
-      elsif ($ARGV[0] =~ /pvs/) {
-         $cmd = "cd $directory;@ARGV --source-file $file --cl-params \"$params $system_includes $compiler_includes $file\" ";
+      elsif ($ARGV[0] =~ /pvs-studio-analyzer/) {
+         $cmd = "cd $directory;@ARGV --source-file $file --cl-params $params $system_includes $compiler_includes $file ";
+      }
+      elsif ($ARGV[0] =~ /pvs-studio/) {
+         $cmd = "cd $directory;@ARGV --source-file $file --cl-params $params $system_includes $compiler_includes $file ";
       }
       elsif ($ARGV[0] =~ /cppcheck/) {
-         # pass full path to cppcheck 
+         # pass full path to cppcheck
          $cmd = "cd $directory;@ARGV $params $system_includes $compiler_includes $full_path";
       }
       else {
