@@ -53,7 +53,7 @@ TEMPFILE=$(mktemp /tmp/pvsstudio-XXXX)
 rm -f ${TEMPFILE} 2>&1 >/dev/null
 
 # iterate over compilation db and generate results
-cc_driver.pl  "${passThru[@]}" pvs-studio ${CONFIG} ${PVSCONFIG} --output-file ${TEMPFILE} >/dev/null
+cc_driver.pl "${passThru[@]}" pvs-studio-analyzer analyze ${CONFIG} ${PVSCONFIG} --output-file ${TEMPFILE} >/dev/null
 if [[ $? != 0 ]]; then
    echo "..."
    tail ${TEMPFILE}
@@ -69,4 +69,4 @@ sed -r "s:${SRC_ROOT}\/|${SRC_ROOT2}\/::g" |       # make all paths under SRC_RO
 sed 's:^\.\./::' |                                 # filter out leading "../" in paths (reduce duplicate reports)
 ${CSV} | sort -u
 
-#rm -f ${TEMPFILE} >/dev/null 2>&1
+rm -f ${TEMPFILE} >/dev/null 2>&1
