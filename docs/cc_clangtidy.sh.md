@@ -17,7 +17,7 @@ Parameter | Description
 -c  | Create output in csv format, using the .csv file extension.  
 
 ## Configuration
-`clang-tidy` looks for a file named `.clang-tidy` in the source files's directory and its parents.  If found, the contents of that file are used to configure checks, etc. -- for more info, see [this StackOverflow question](https://stackoverflow.com/questions/53026453/what-values-are-allowed-in-the-clang-tidy-config-file).
+`clang-tidy` looks for a file named `.clang-tidy` in the source files's directory and its parents.  If found, the contents of that file are used to configure checks, etc.  The contents of the file are not particularly well-documented, but some info can be found at [this StackOverflow question](https://stackoverflow.com/questions/53026453/what-values-are-allowed-in-the-clang-tidy-config-file).
 
 ## Notes
 The `cc_clangcheck.sh` script has been deleted -- `cc_clangtidy.sh` does everything the other script did and more.
