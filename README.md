@@ -15,7 +15,7 @@ Several of the scripts are written in Perl, simply because that was easiest (esp
 
 The scripts have been tested on CentOS 6, CentOS 7 and Ubuntu 20.04.
 
-Copyright 2016 by Bill Torpey. All Rights Reserved.
+Copyright 2021 by Bill Torpey. All Rights Reserved.
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 United States License. <http://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en>
 
 
