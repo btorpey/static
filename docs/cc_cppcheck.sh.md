@@ -1,6 +1,6 @@
 # cc_cppcheck.sh
 
-This script is a wrapper for a couple of helper scripts: cc_driver.pl and cppcheck.sh.  It simplifies running cppcheck on a tree of source files using a compilation database (`compile_commands.json`).
+This script is a wrapper for a couple of helper scripts: cc_driver.pl and cppcheck.pl.  It simplifies running [cppcheck](http://cppcheck.sourceforge.net/) on a tree of source files using a compilation database (`compile_commands.json`).
 
 ## Usage
 cc_cppcheck.sh [-d] [-v] [-p build\_path]
