@@ -5,20 +5,15 @@ A blog post describing the use of these scripts with cppcheck and clang can be f
 
 |Script  | Description
 |------------- | -------------
-|build_cppcheck.sh | Script to build cppcheck for installation in a non-standard location (i.e., not /usr, /usr/local).
 |[cc_cppcheck.sh](docs/cc_cppcheck.sh.md)  | Iterates over a compilation database (compile_commands.json) file, and executes cppcheck.sh on each file.
-|cc_clangtidy.sh  | Iterates over a compilation database (compile_commands.json) file, and executes clang-tidy on each file.
+|[cc_clangtidy.sh](cc_clangtidy.sh.md)  | Iterates over a compilation database (compile_commands.json) file, and executes clang-tidy on each file.
 |[cc_pvs.sh](docs/cc_pvs.sh.md)  | Wrapper for PVS-Studio.
-|cc_driver.pl  | Iterates over a compilation database (compile_commands.json) file, and executes a specified command for each build target, passing the compiler flags from the normal build.
-|cppcheck.sh | Invokes cppcheck defining a number of common parameters, also generates and includes compiler pre-defined macros.
-|cppcheck2csv.pl  | Takes (filtered or un-filtered) output from cppcheck, and formats it in csv format.
-|clang2csv.pl  | Takes (filtered or un-filtered) output from clang tools (clang-check and clang-tidy), and formats it in csv format.
-|itc2csv.pl  | Takes a list of error annotations from ITC benchmark suite, and formats it in csv format.
-|pvs2csv.pl  | Reformats output from PVS-Studio into csv format.
+|[cc_driver.pl](docs/cc_driver.pl.md)  | Iterates over a compilation database (compile_commands.json) file, and executes a specified command for each build target, passing the compiler flags from the normal build.
+|[cppcheck.pl](docs/cppcheck.pl.md) | Invokes cppcheck defining a number of common parameters, also generates and includes compiler pre-defined macros.
 
-Most of the scripts are written in Perl, simply because that was easiest (especially given the excellent debugging support available under [Eclipse](https://eclipse.org/) with [EPIC](http://www.epic-ide.org/)).
+Several of the scripts are written in Perl, simply because that was easiest (especially given the excellent debugging support available under [Eclipse](https://eclipse.org/) with [EPIC](http://www.epic-ide.org/)).
 
-The scripts have been tested on CentOS 6.
+The scripts have been tested on CentOS 6, CentOS 7 and Ubuntu 20.04.
 
 Copyright 2016 by Bill Torpey. All Rights Reserved.
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 United States License. <http://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en>
