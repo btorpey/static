@@ -6,8 +6,7 @@ A blog post describing the use of these scripts with cppcheck and clang can be f
 |Script  | Description
 |------------- | -------------
 |build_cppcheck.sh | Script to build cppcheck for installation in a non-standard location (i.e., not /usr, /usr/local).
-|cc_cppcheck.sh  | Iterates over a compilation database (compile_commands.json) file, and executes cppcheck.sh on each file.
-|cc_clangcheck.sh  | Iterates over a compilation database (compile_commands.json) file, and executes clang-check on each file.
+|[cc_cppcheck.sh](docs/cc_cppcheck.sh.md)  | Iterates over a compilation database (compile_commands.json) file, and executes cppcheck.sh on each file.
 |cc_clangtidy.sh  | Iterates over a compilation database (compile_commands.json) file, and executes clang-tidy on each file.
 |[cc_pvs.sh](docs/cc_pvs.sh.md)  | Wrapper for PVS-Studio.
 |cc_driver.pl  | Iterates over a compilation database (compile_commands.json) file, and executes a specified command for each build target, passing the compiler flags from the normal build.

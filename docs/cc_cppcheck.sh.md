@@ -1,5 +1,4 @@
 # cc_cppcheck.sh
-{:.no_toc}
 
 This script is a wrapper for a couple of helper scripts: cc_driver.pl and cppcheck.sh.  It simplifies running cppcheck on a tree of source files using a compilation database (`compile_commands.json`).
 
@@ -17,7 +16,21 @@ Parameter | Description
 -p build\_path  |   Specifies the path to a compilation database in JSON format.  It can be either an absolute path to a compilation database, or a directory (which will be searched for a compile\_commands.json file).  If omitted, the current directory is used.
 -c  | Create output in csv format, using the .csv file extension.  
 
+## Configuration
+The script looks for the file `.cppcheckrc` in the source files's directory and its parents.  If found, the contents of that file are passed to `cppcheck` as command line parameters.  Blank lines and comment lines (lines beginning with `#`) are ignored.
+
+A typical `.cppcheckrc` file might look something like this:
+
+    # this is a comment
+    --enable=all --inconclusive
+    --error-exitcode=19
+    --std=posix --std=c++03
+    --platform=unix64
+    
+    --suppress=unusedFunction
+    --suppress=unmatchedSuppression
+
 
 ## Notes
 
-See [this post](/blog/2016/04/07/mo-static) for more information.
+See [this series of posts](/blog/categories/static-analysis/) for more information.

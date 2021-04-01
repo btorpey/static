@@ -23,3 +23,5 @@ The script looks for the file `.pvsconfig` in the root of the source tree -- if 
 ## Notes
 
 The format of PVS-Studio output has changed previously -- this version of the utility is compatible with version 7.12.  With this version, the `pvs-studio` standalone program has been deprecated -- this script now uses `pvs-studio-analyzer`.
+
+See [this series of posts](/blog/categories/static-analysis/) for more information.
