@@ -33,4 +33,4 @@ A typical `.cppcheckrc` file might look something like this:
 
 ## Notes
 
-See [this series of posts](/blog/categories/static-analysis/) for more information.
+See [this series of posts](http://btorpey.github.io/blog/categories/static-analysis/) for more information.
