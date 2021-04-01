@@ -1,5 +1,4 @@
 # cc_pvs.sh
-{:.no_toc}
 
 This script is a wrapper for PVS_Studio (<https://www.viva64.com/en/pvs-studio/>) static analyzer. It simplifies running PVS on a tree of source files using a compilation database (`compile_commands.json`).
 
@@ -18,9 +17,9 @@ Parameter | Description
 -c  | Create output in csv format, using the .csv file extension.  
 -g config  |   Specifies the path to a PVS-Studio configiuration file.If omitted, it defaults to `$HOME/.config/PVS-Studio/PVS-Studio.cfg`.
 
+## Configuration
+The script looks for the file `.pvsconfig` in the root of the source tree -- if found, it passes the file's full path to PVS with the `--rules-config` flag.
 
 ## Notes
 
-The format of PVS-Studio output has changed previously -- this version of the utility is compatible with version 6.25.
-
-While some of the features of the script are also available using the `pvs-studio-analyzer` program, some others (specifically the ability to include only certain subdirectories) is not.
+The format of PVS-Studio output has changed previously -- this version of the utility is compatible with version 7.12.  With this version, the `pvs-studio` standalone program has been deprecated -- this script now uses `pvs-studio-analyzer`.
