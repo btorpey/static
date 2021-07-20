@@ -1,36 +1,29 @@
 #!/bin/bash
 #
-# Copyright 2016 by Bill Torpey. All Rights Reserved.
+# Copyright 2021 by Bill Torpey. All Rights Reserved.
 # This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 United States License.
 # http://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en
 #
 set -exv
 
+## NOTE: cppcheck includes code written in C++11, so needs a C++11-capable compiler
+
 PACKAGE=cppcheck
-VERSION=1.73
+VERSION=2.3
 
-#
-# NOTE: cppcheck requires pcre-devel package (yum install pcre-devel)
-#
-
-# location where package should be installed
+# location where gcc should be installed
 INSTALL_PREFIX=/build/share/${PACKAGE}/${VERSION}
+# number of cores
+CPUS=1
 # uncomment following to get verbose output from make
 #VERBOSE=VERBOSE=1
 
-# find compiler libraries to use in RPATH setting
-COMPILER=${CXX}
-[[ -z ${COMPILER} ]] && COMPILER=g++
-RPATH=$(dirname $(dirname $(which ${COMPILER})))/lib64
-
-[[ -e ${PACKAGE}-${VERSION}.tar.gz ]] || wget --no-check-certificate -nv https://sourceforge.net/projects/${PACKAGE}/files/${PACKAGE}/${VERSION}/${PACKAGE}-${VERSION}.tar.gz
-
 rm -rf ${PACKAGE}-${VERSION}
-tar xvfz ${PACKAGE}-${VERSION}.tar.gz
+git clone https://github.com/danmar/cppcheck.git ${PACKAGE}-${VERSION}
 
 # delete old
 rm -rf ${INSTALL_PREFIX}
 
 cd ${PACKAGE}-${VERSION}
 make clean
-make ${VERBOSE} PREFIX=${INSTALL_PREFIX} CFGDIR=${INSTALL_PREFIX}/cfg HAVE_RULES=yes LDFLAGS="-Wl,--rpath=${RPATH}" install
+make PREFIX=${INSTALL_PREFIX} FILESDIR=${INSTALL_PREFIX} CFGDIR=${INSTALL_PREFIX}/cfg HAVE_RULES=no install

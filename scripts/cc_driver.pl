@@ -10,14 +10,36 @@ use File::Spec;
 
 ###############################################################
 # get compiler's default include path
-sub getCXXIncludes
+sub getCXX
 {
    # get compiler command
    my $compiler = $ENV{'CXX'};
    if (!defined $compiler) {
       $compiler = "g++";
    }
+   
+   $compiler = trim(`which $compiler`);
 
+   return $compiler;
+}
+
+sub getCC
+{
+   # get compiler command
+   my $compiler = $ENV{'CC'};
+   if (!defined $compiler) {
+      $compiler = "gcc";
+   }
+   
+   $compiler = trim(`which $compiler`);
+   
+   return $compiler;
+}
+
+sub getCXXIncludes
+{
+   # get compiler command
+   my $compiler = getCXX();
    my @includes;
    my $capture = 0;
    my @lines = `$compiler  -E -x c++ - -v 2>&1 1>/dev/null </dev/null`;
@@ -129,6 +151,8 @@ my $directory;
 my $file;
 my $vol;
 my $full_path;
+my $cc = getCC();
+my $cxx = getCXX();
 
 while (<INFILE>) {
    my @tokens = split(" ", $_);
@@ -141,7 +165,7 @@ while (<INFILE>) {
    }
    elsif ($tokens[0] eq '"command":') {
       if ($no_params == 0) {
-         for my $i (1 .. $#tokens) {
+         for my $i (2 .. $#tokens) {
             if ($tokens[$i] eq "-D") {
                push @params, "-D" . $tokens[++$i];
             }
@@ -180,14 +204,14 @@ while (<INFILE>) {
    elsif ($tokens[0] eq '"file":') {
       my $path = trim($tokens[1]);
       ($vol,$directory,$file) = File::Spec->splitpath($path);
-      $full_path = File::Spec->catpath( $vol, $directory, $file );      
-      
+      $full_path = File::Spec->catpath( $vol, $directory, $file );
+
 #      print "path=$path\n";
 #      print "vol=$vol\n";
 #      print "directory=$directory\n";
 #      print "file=$file\n";
 #      print "full_path=$full_path\n";
-      
+
    }
    elsif (($tokens[0] eq '},') || ($tokens[0] eq '}')) {
       # end of an entry
@@ -198,11 +222,14 @@ while (<INFILE>) {
          # clang tools use a specific command line format
          $cmd = "cd $directory;@ARGV $file -- $params $system_includes $compiler_includes";
       }
-      elsif ($ARGV[0] =~ /pvs/) {
-         $cmd = "cd $directory;@ARGV --source-file $file --cl-params \"$params $system_includes $compiler_includes $file\" ";
+      elsif ($ARGV[0] =~ /pvs-studio-analyzer/) {
+         $cmd = "cd $directory;@ARGV --cc $cc --cxx $cxx --source-file $file --cl-params $params $system_includes $compiler_includes $file ";
+      }
+      elsif ($ARGV[0] =~ /pvs-studio/) {
+         $cmd = "cd $directory;@ARGV --source-file $file --cl-params $params $system_includes $compiler_includes $file ";
       }
       elsif ($ARGV[0] =~ /cppcheck/) {
-         # pass full path to cppcheck 
+         # pass full path to cppcheck
          $cmd = "cd $directory;@ARGV $params $system_includes $compiler_includes $full_path";
       }
       else {
